@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name driverDisplayLED-rescue)(type Legacy)(uri ${KIPRJMOD}/driverDisplayLED-rescue.lib)(options "")(descr ""))
+)
