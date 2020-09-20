@@ -52,17 +52,6 @@ F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 2100 2250 50  0001 C CNN
 $EndComp
 $Comp
 L 74xx:74HC595 U?
-U 1 1 5F5AFDD4
-P 5450 2300
-F 0 "U?" V 5496 1556 50  0000 R CNN
-F 1 "74HC595" V 5405 1556 50  0000 R CNN
-F 2 "" H 5450 2300 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 5450 2300 50  0001 C CNN
-	1    5450 2300
-	0    1    1    0   
-$EndComp
-$Comp
-L 74xx:74HC595 U?
 U 1 1 5F5B1089
 P 10350 2800
 F 0 "U?" V 10396 2056 50  0000 R CNN
@@ -850,8 +839,6 @@ Connection ~ 2800 2250
 Wire Wire Line
 	2300 1850 2300 1450
 Connection ~ 2300 1450
-Wire Wire Line
-	2300 1450 4850 1450
 $Comp
 L power:VCC #PWR?
 U 1 1 5F9B8844
@@ -865,11 +852,9 @@ F 3 "" H 2200 1850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2000 1850 2000 1550
-Wire Wire Line
-	2000 1550 4850 1550
 Text Label 3750 1550 0    50   ~ 0
 RCLK
-Text Label 3700 1450 0    50   ~ 0
+Text Label 3750 1450 0    50   ~ 0
 SRCLK
 Text Label 3300 1350 2    50   ~ 0
 bus.R8-R1
@@ -914,4 +899,447 @@ Wire Wire Line
 	950  1650 2500 1650
 Wire Wire Line
 	950  5400 1400 5400
+Wire Wire Line
+	1600 2650 1600 3100
+Wire Wire Line
+	1600 3100 3450 3100
+Wire Wire Line
+	3450 3100 3450 1650
+Text Label 3750 1650 0    50   ~ 0
+QH-SER
+$Comp
+L 74xx:74HC595 U?
+U 1 1 5FA70579
+P 14150 1950
+F 0 "U?" V 13750 1100 50  0000 R CNN
+F 1 "74HC595" V 13850 1300 50  0000 R CNN
+F 2 "" H 14150 1950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 14150 1950 50  0001 C CNN
+	1    14150 1950
+	0    1    1    0   
+$EndComp
+Text Label 13350 1050 1    50   ~ 0
+R8
+Text Label 13450 1050 1    50   ~ 0
+R7
+Text Label 13550 1050 1    50   ~ 0
+R6
+Text Label 13650 1050 1    50   ~ 0
+R5
+Text Label 13750 1050 1    50   ~ 0
+R4
+Text Label 13850 1050 1    50   ~ 0
+R3
+Text Label 13950 1050 1    50   ~ 0
+R2
+Text Label 14050 1050 1    50   ~ 0
+R1
+$Comp
+L power:GND #PWR?
+U 1 1 5FA705A5
+P 14600 850
+F 0 "#PWR?" H 14600 600 50  0001 C CNN
+F 1 "GND" H 14600 700 50  0000 C CNN
+F 2 "" H 14600 850 50  0001 C CNN
+F 3 "" H 14600 850 50  0001 C CNN
+	1    14600 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13850 2350 13850 2650
+Wire Wire Line
+	13950 2350 13950 2650
+Wire Wire Line
+	14050 2350 14050 2650
+Wire Wire Line
+	14150 2350 14150 2650
+Wire Wire Line
+	14250 2350 14250 2650
+Wire Wire Line
+	14350 2350 14350 2650
+Wire Wire Line
+	14450 2350 14450 2650
+Wire Wire Line
+	14150 750  14150 850 
+Wire Wire Line
+	14250 750  14250 850 
+Wire Wire Line
+	14350 750  14350 850 
+Wire Wire Line
+	14450 750  14450 850 
+$Comp
+L Connector:Conn_01x12_Male J?
+U 1 1 5FA705B6
+P 13950 550
+F 0 "J?" V 13800 550 50  0000 C CNN
+F 1 "Conn_01x12_Male" V 13900 450 50  0000 C CNN
+F 2 "" H 13950 550 50  0001 C CNN
+F 3 "~" H 13950 550 50  0001 C CNN
+	1    13950 550 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14150 850  14250 850 
+Connection ~ 14250 850 
+Wire Wire Line
+	14250 850  14350 850 
+Connection ~ 14350 850 
+Wire Wire Line
+	14350 850  14450 850 
+Wire Wire Line
+	14050 750  14050 1050
+Wire Wire Line
+	13950 750  13950 1050
+Wire Wire Line
+	13850 750  13850 1050
+Wire Wire Line
+	13750 750  13750 1050
+Wire Wire Line
+	13650 750  13650 1050
+Wire Wire Line
+	13550 750  13550 1050
+Wire Wire Line
+	13450 750  13450 1050
+Wire Wire Line
+	13350 750  13350 1050
+Wire Wire Line
+	14450 850  14600 850 
+Connection ~ 14450 850 
+$Comp
+L power:GND #PWR?
+U 1 1 5FA705CB
+P 15150 1950
+F 0 "#PWR?" H 15150 1700 50  0001 C CNN
+F 1 "GND" H 15155 1777 50  0000 C CNN
+F 2 "" H 15150 1950 50  0001 C CNN
+F 3 "" H 15150 1950 50  0001 C CNN
+	1    15150 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FA705D1
+P 15000 1950
+F 0 "C?" V 14748 1950 50  0000 C CNN
+F 1 "C" V 14839 1950 50  0000 C CNN
+F 2 "" H 15038 1800 50  0001 C CNN
+F 3 "~" H 15000 1950 50  0001 C CNN
+	1    15000 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5FA705D7
+P 14850 1700
+F 0 "#PWR?" H 14850 1550 50  0001 C CNN
+F 1 "VCC" H 14865 1873 50  0000 C CNN
+F 2 "" H 14850 1700 50  0001 C CNN
+F 3 "" H 14850 1700 50  0001 C CNN
+	1    14850 1700
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	15350 1050 15350 2650
+Wire Bus Line
+	13300 1050 15350 1050
+Wire Bus Line
+	13750 2650 15350 2650
+$Comp
+L power:GND #PWR?
+U 1 1 5FA705E0
+P 13450 1950
+F 0 "#PWR?" H 13450 1700 50  0001 C CNN
+F 1 "GND" H 13450 1800 50  0000 C CNN
+F 2 "" H 13450 1950 50  0001 C CNN
+F 3 "" H 13450 1950 50  0001 C CNN
+	1    13450 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14750 1950 14850 1950
+Wire Wire Line
+	14850 1700 14850 1950
+Connection ~ 14850 1950
+Wire Wire Line
+	14350 1550 14350 1150
+Connection ~ 14350 1150
+Wire Wire Line
+	14350 1150 16900 1150
+$Comp
+L power:VCC #PWR?
+U 1 1 5FA705EC
+P 14250 1550
+F 0 "#PWR?" H 14250 1400 50  0001 C CNN
+F 1 "VCC" H 14250 1700 50  0000 C CNN
+F 2 "" H 14250 1550 50  0001 C CNN
+F 3 "" H 14250 1550 50  0001 C CNN
+	1    14250 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14050 1550 14050 1250
+Wire Wire Line
+	14050 1250 16900 1250
+Text Label 15800 1250 0    50   ~ 0
+RCLK
+Text Label 15800 1150 0    50   ~ 0
+SRCLK
+Text Label 15350 1050 2    50   ~ 0
+bus.R8-R1
+Wire Wire Line
+	14550 2350 14550 2650
+Text Label 15350 2650 2    50   ~ 0
+bus.R8-R1
+Wire Wire Line
+	14550 1550 14550 1350
+$Comp
+L power:GND #PWR?
+U 1 1 5FA705FA
+P 13800 1450
+F 0 "#PWR?" H 13800 1200 50  0001 C CNN
+F 1 "GND" H 13805 1277 50  0000 C CNN
+F 2 "" H 13800 1450 50  0001 C CNN
+F 3 "" H 13800 1450 50  0001 C CNN
+	1    13800 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13800 1450 13950 1450
+Wire Wire Line
+	13950 1450 13950 1550
+Wire Wire Line
+	12800 1150 14350 1150
+Text Label 12800 1150 0    50   ~ 0
+A5-SRCLK
+Text Label 13050 1350 0    50   ~ 0
+A1-SER
+Wire Wire Line
+	13000 1350 14550 1350
+Wire Wire Line
+	13650 2350 13650 2800
+Wire Wire Line
+	13650 2800 15500 2800
+Wire Wire Line
+	15500 2800 15500 1350
+Wire Wire Line
+	15500 1350 16900 1350
+Text Label 15800 1350 0    50   ~ 0
+QH-SER
+$Comp
+L 74xx:74HC595 U?
+U 1 1 5FAACAB9
+P 6200 2250
+F 0 "U?" V 5800 1400 50  0000 R CNN
+F 1 "74HC595" V 5900 1600 50  0000 R CNN
+F 2 "" H 6200 2250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 6200 2250 50  0001 C CNN
+	1    6200 2250
+	0    1    1    0   
+$EndComp
+Text Label 5400 1350 1    50   ~ 0
+R8
+Text Label 5500 1350 1    50   ~ 0
+R7
+Text Label 5600 1350 1    50   ~ 0
+R6
+Text Label 5700 1350 1    50   ~ 0
+R5
+Text Label 5800 1350 1    50   ~ 0
+R4
+Text Label 5900 1350 1    50   ~ 0
+R3
+Text Label 6000 1350 1    50   ~ 0
+R2
+Text Label 6100 1350 1    50   ~ 0
+R1
+$Comp
+L power:GND #PWR?
+U 1 1 5FAACAC7
+P 6650 1150
+F 0 "#PWR?" H 6650 900 50  0001 C CNN
+F 1 "GND" H 6650 1000 50  0000 C CNN
+F 2 "" H 6650 1150 50  0001 C CNN
+F 3 "" H 6650 1150 50  0001 C CNN
+	1    6650 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 2650 5900 2950
+Wire Wire Line
+	6000 2650 6000 2950
+Wire Wire Line
+	6100 2650 6100 2950
+Wire Wire Line
+	6200 2650 6200 2950
+Wire Wire Line
+	6300 2650 6300 2950
+Wire Wire Line
+	6400 2650 6400 2950
+Wire Wire Line
+	6500 2650 6500 2950
+Wire Wire Line
+	6200 1050 6200 1150
+Wire Wire Line
+	6300 1050 6300 1150
+Wire Wire Line
+	6400 1050 6400 1150
+Wire Wire Line
+	6500 1050 6500 1150
+$Comp
+L Connector:Conn_01x12_Male J?
+U 1 1 5FAACAD8
+P 6000 850
+F 0 "J?" V 5850 850 50  0000 C CNN
+F 1 "Conn_01x12_Male" V 5950 750 50  0000 C CNN
+F 2 "" H 6000 850 50  0001 C CNN
+F 3 "~" H 6000 850 50  0001 C CNN
+	1    6000 850 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6200 1150 6300 1150
+Connection ~ 6300 1150
+Wire Wire Line
+	6300 1150 6400 1150
+Connection ~ 6400 1150
+Wire Wire Line
+	6400 1150 6500 1150
+Wire Wire Line
+	6100 1050 6100 1350
+Wire Wire Line
+	6000 1050 6000 1350
+Wire Wire Line
+	5900 1050 5900 1350
+Wire Wire Line
+	5800 1050 5800 1350
+Wire Wire Line
+	5700 1050 5700 1350
+Wire Wire Line
+	5600 1050 5600 1350
+Wire Wire Line
+	5500 1050 5500 1350
+Wire Wire Line
+	5400 1050 5400 1350
+Wire Wire Line
+	6500 1150 6650 1150
+Connection ~ 6500 1150
+$Comp
+L power:GND #PWR?
+U 1 1 5FAACAED
+P 7200 2250
+F 0 "#PWR?" H 7200 2000 50  0001 C CNN
+F 1 "GND" H 7205 2077 50  0000 C CNN
+F 2 "" H 7200 2250 50  0001 C CNN
+F 3 "" H 7200 2250 50  0001 C CNN
+	1    7200 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FAACAF3
+P 7050 2250
+F 0 "C?" V 6798 2250 50  0000 C CNN
+F 1 "C" V 6889 2250 50  0000 C CNN
+F 2 "" H 7088 2100 50  0001 C CNN
+F 3 "~" H 7050 2250 50  0001 C CNN
+	1    7050 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5FAACAF9
+P 6900 2000
+F 0 "#PWR?" H 6900 1850 50  0001 C CNN
+F 1 "VCC" H 6915 2173 50  0000 C CNN
+F 2 "" H 6900 2000 50  0001 C CNN
+F 3 "" H 6900 2000 50  0001 C CNN
+	1    6900 2000
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	7400 1350 7400 2950
+Wire Bus Line
+	5350 1350 7400 1350
+Wire Bus Line
+	5800 2950 7400 2950
+$Comp
+L power:GND #PWR?
+U 1 1 5FAACB02
+P 5500 2250
+F 0 "#PWR?" H 5500 2000 50  0001 C CNN
+F 1 "GND" H 5500 2100 50  0000 C CNN
+F 2 "" H 5500 2250 50  0001 C CNN
+F 3 "" H 5500 2250 50  0001 C CNN
+	1    5500 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 2250 6900 2250
+Wire Wire Line
+	6900 2000 6900 2250
+Connection ~ 6900 2250
+Wire Wire Line
+	6400 1850 6400 1450
+Connection ~ 6400 1450
+Wire Wire Line
+	6400 1450 8950 1450
+$Comp
+L power:VCC #PWR?
+U 1 1 5FAACB0E
+P 6300 1850
+F 0 "#PWR?" H 6300 1700 50  0001 C CNN
+F 1 "VCC" H 6300 2000 50  0000 C CNN
+F 2 "" H 6300 1850 50  0001 C CNN
+F 3 "" H 6300 1850 50  0001 C CNN
+	1    6300 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 1850 6100 1550
+Wire Wire Line
+	6100 1550 8950 1550
+Text Label 7850 1550 0    50   ~ 0
+RCLK
+Text Label 7850 1450 0    50   ~ 0
+SRCLK
+Text Label 7400 1350 2    50   ~ 0
+bus.R8-R1
+Wire Wire Line
+	6600 2650 6600 2950
+Text Label 7400 2950 2    50   ~ 0
+bus.R8-R1
+Wire Wire Line
+	6600 1850 6600 1650
+$Comp
+L power:GND #PWR?
+U 1 1 5FAACB1C
+P 5850 1750
+F 0 "#PWR?" H 5850 1500 50  0001 C CNN
+F 1 "GND" H 5855 1577 50  0000 C CNN
+F 2 "" H 5850 1750 50  0001 C CNN
+F 3 "" H 5850 1750 50  0001 C CNN
+	1    5850 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 1750 6000 1750
+Wire Wire Line
+	6000 1750 6000 1850
+Wire Wire Line
+	5700 2650 5700 3100
+Wire Wire Line
+	5700 3100 7550 3100
+Wire Wire Line
+	7550 3100 7550 1650
+Wire Wire Line
+	7550 1650 8950 1650
+Text Label 7850 1650 0    50   ~ 0
+QH-SER
+Wire Wire Line
+	2300 1450 6400 1450
+Wire Wire Line
+	3450 1650 6600 1650
+Wire Wire Line
+	2000 1550 6100 1550
+Connection ~ 6100 1550
 $EndSCHEMATC
