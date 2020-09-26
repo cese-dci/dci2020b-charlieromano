@@ -71,17 +71,6 @@ $EndComp
 Entry Wire Line
 	-6650 5550 -6550 5650
 $Comp
-L Connector_Generic:Conn_02x08_Row_Letter_First J4
-U 1 1 5F69521F
-P 3750 8150
-F 0 "J4" H 3800 8667 50  0000 C CNN
-F 1 "Conn_02x08_Row_Letter_First" H 3800 8576 50  0000 C CNN
-F 2 "Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical" H 3750 8150 50  0001 C CNN
-F 3 "~" H 3750 8150 50  0001 C CNN
-	1    3750 8150
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C3
 U 1 1 5F65B62D
 P 5500 7350
@@ -169,8 +158,6 @@ Text Label 3100 7700 2    50   ~ 0
 B1-a5
 Text Label 3100 7800 2    50   ~ 0
 B2-b6
-Wire Wire Line
-	3700 8350 3650 8350
 Text Label 3100 7900 2    50   ~ 0
 B3-a6
 Text Label 4050 9000 2    50   ~ 0
@@ -179,10 +166,6 @@ Wire Wire Line
 	4250 9000 4250 8450
 Text Label 4050 8900 2    50   ~ 0
 B2-b6
-Wire Wire Line
-	3650 8150 3700 8150
-Wire Wire Line
-	3650 8250 3700 8250
 Wire Wire Line
 	5850 8450 6000 8450
 Wire Wire Line
@@ -2385,4 +2368,15 @@ Wire Wire Line
 	700  1300 2250 1300
 Wire Wire Line
 	700  1300 700  8100
+$Comp
+L Connector_Generic:Conn_02x08_Counter_Clockwise J4
+U 1 1 5F72EC68
+P 3750 8150
+F 0 "J4" H 3800 8667 50  0000 C CNN
+F 1 "Conn_02x08_Counter_Clockwise" H 3800 8576 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 3750 8150 50  0001 C CNN
+F 3 "~" H 3750 8150 50  0001 C CNN
+	1    3750 8150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
