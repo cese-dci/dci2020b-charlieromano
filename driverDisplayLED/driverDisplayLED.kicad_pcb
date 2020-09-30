@@ -9,7 +9,7 @@
     (nets 116)
   )
 
-  (page A4)
+  (page A0)
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
@@ -331,7 +331,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5F6EC99A)
-    (at 58.27 160.41)
+    (at 490.54 357.4)
     (descr "Through hole straight pin header, 2x08, 2.54mm pitch, double rows")
     (tags "Through hole pin header THT 2x08 2.54mm double row")
     (path /5F72EC68)
@@ -401,7 +401,7 @@
   )
 
   (module Capacitor_SMD:CP_Elec_3x5.3 (layer F.Cu) (tedit 5B303299) (tstamp 5F6F2FCE)
-    (at 165.795001 81.575001)
+    (at 598.065001 278.565001)
     (descr "SMT capacitor, aluminium electrolytic, 3x5.3, Cornell Dubilier Electronics ")
     (tags "Capacitor Electrolytic")
     (path /5F984DDB)
@@ -456,7 +456,7 @@
   )
 
   (module Capacitor_SMD:CP_Elec_3x5.3 (layer F.Cu) (tedit 5B303299) (tstamp 5F6F2FF2)
-    (at 162.445001 87.965001)
+    (at 594.715001 284.955001)
     (descr "SMT capacitor, aluminium electrolytic, 3x5.3, Cornell Dubilier Electronics ")
     (tags "Capacitor Electrolytic")
     (path /5F994ADB)
@@ -511,7 +511,7 @@
   )
 
   (module Capacitor_SMD:CP_Elec_3x5.3 (layer F.Cu) (tedit 5B303299) (tstamp 5F6F3016)
-    (at 169.195001 91.275001)
+    (at 601.465001 288.265001)
     (descr "SMT capacitor, aluminium electrolytic, 3x5.3, Cornell Dubilier Electronics ")
     (tags "Capacitor Electrolytic")
     (path /5F65B62D)
@@ -566,7 +566,7 @@
   )
 
   (module Capacitor_SMD:CP_Elec_3x5.3 (layer F.Cu) (tedit 5B303299) (tstamp 5F6F303A)
-    (at 153.475001 107.025001)
+    (at 585.745001 304.015001)
     (descr "SMT capacitor, aluminium electrolytic, 3x5.3, Cornell Dubilier Electronics ")
     (tags "Capacitor Electrolytic")
     (path /5FAACAF3)
@@ -621,7 +621,7 @@
   )
 
   (module Capacitor_SMD:CP_Elec_3x5.3 (layer F.Cu) (tedit 5B303299) (tstamp 5F6F305E)
-    (at 160.675001 100.275001)
+    (at 592.945001 297.265001)
     (descr "SMT capacitor, aluminium electrolytic, 3x5.3, Cornell Dubilier Electronics ")
     (tags "Capacitor Electrolytic")
     (path /5FB78A0A)
@@ -676,7 +676,7 @@
   )
 
   (module Capacitor_SMD:CP_Elec_3x5.3 (layer F.Cu) (tedit 5B303299) (tstamp 5F6F3082)
-    (at 153.475001 102.175001)
+    (at 585.745001 299.165001)
     (descr "SMT capacitor, aluminium electrolytic, 3x5.3, Cornell Dubilier Electronics ")
     (tags "Capacitor Electrolytic")
     (path /5FB8F00B)
@@ -731,7 +731,7 @@
   )
 
   (module Capacitor_SMD:CP_Elec_3x5.3 (layer F.Cu) (tedit 5B303299) (tstamp 5F6F30A6)
-    (at 169.195001 86.425001)
+    (at 601.465001 283.415001)
     (descr "SMT capacitor, aluminium electrolytic, 3x5.3, Cornell Dubilier Electronics ")
     (tags "Capacitor Electrolytic")
     (path /5F94DBDD)
@@ -786,7 +786,7 @@
   )
 
   (module Capacitor_SMD:CP_Elec_3x5.3 (layer F.Cu) (tedit 5B303299) (tstamp 5F6F30CA)
-    (at 160.675001 95.425001)
+    (at 592.945001 292.415001)
     (descr "SMT capacitor, aluminium electrolytic, 3x5.3, Cornell Dubilier Electronics ")
     (tags "Capacitor Electrolytic")
     (path /5FA705D1)
@@ -841,7 +841,7 @@
   )
 
   (module Capacitor_SMD:CP_Elec_3x5.3 (layer F.Cu) (tedit 5B303299) (tstamp 5F6F30EE)
-    (at 146.725001 105.775001)
+    (at 578.995001 302.765001)
     (descr "SMT capacitor, aluminium electrolytic, 3x5.3, Cornell Dubilier Electronics ")
     (tags "Capacitor Electrolytic")
     (path /601FEB7B)
@@ -896,7 +896,7 @@
   )
 
   (module Diode_SMD:D_0201_0603Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5F6F3102)
-    (at 108.580001 109.325001)
+    (at 540.850001 306.315001)
     (descr "Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags diode)
     (path /5FB77605)
@@ -935,7 +935,7 @@
   )
 
   (module Diode_SMD:D_0201_0603Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5F6F3116)
-    (at 105.900001 109.325001)
+    (at 538.170001 306.315001)
     (descr "Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags diode)
     (path /5FC46DFE)
@@ -974,7 +974,7 @@
   )
 
   (module Connector_PinHeader_1.00mm:PinHeader_1x12_P1.00mm_Vertical (layer F.Cu) (tedit 59FED738) (tstamp 5F6F3138)
-    (at 134.845001 91.575001)
+    (at 567.115001 288.565001)
     (descr "Through hole straight pin header, 1x12, 1.00mm pitch, single row")
     (tags "Through hole pin header THT 1x12 1.00mm single row")
     (path /5F72B69F)
@@ -1036,7 +1036,7 @@
   )
 
   (module Connector_PinHeader_1.00mm:PinHeader_1x12_P1.00mm_Vertical (layer F.Cu) (tedit 59FED738) (tstamp 5F6F315A)
-    (at 110.84 91.6)
+    (at 543.11 288.59)
     (descr "Through hole straight pin header, 1x12, 1.00mm pitch, single row")
     (tags "Through hole pin header THT 1x12 1.00mm single row")
     (path /5F7388B6)
@@ -1098,7 +1098,7 @@
   )
 
   (module Connector_PinHeader_1.00mm:PinHeader_1x12_P1.00mm_Vertical (layer F.Cu) (tedit 59FED738) (tstamp 5F6F317C)
-    (at 131.495001 91.575001)
+    (at 563.765001 288.565001)
     (descr "Through hole straight pin header, 1x12, 1.00mm pitch, single row")
     (tags "Through hole pin header THT 1x12 1.00mm single row")
     (path /60D219A1)
@@ -1160,7 +1160,7 @@
   )
 
   (module Connector_PinHeader_1.00mm:PinHeader_1x12_P1.00mm_Vertical (layer F.Cu) (tedit 59FED738) (tstamp 5F6F31D3)
-    (at 128.145001 91.575001)
+    (at 560.415001 288.565001)
     (descr "Through hole straight pin header, 1x12, 1.00mm pitch, single row")
     (tags "Through hole pin header THT 1x12 1.00mm single row")
     (path /5FAACAD8)
@@ -1222,7 +1222,7 @@
   )
 
   (module Connector_PinHeader_1.00mm:PinHeader_1x12_P1.00mm_Vertical (layer F.Cu) (tedit 59FED738) (tstamp 5F6F31F5)
-    (at 124.795001 91.575001)
+    (at 557.065001 288.565001)
     (descr "Through hole straight pin header, 1x12, 1.00mm pitch, single row")
     (tags "Through hole pin header THT 1x12 1.00mm single row")
     (path /60C78E58)
@@ -1284,7 +1284,7 @@
   )
 
   (module Connector_PinHeader_1.00mm:PinHeader_1x12_P1.00mm_Vertical (layer F.Cu) (tedit 59FED738) (tstamp 5F6F3217)
-    (at 121.445001 91.575001)
+    (at 553.715001 288.565001)
     (descr "Through hole straight pin header, 1x12, 1.00mm pitch, single row")
     (tags "Through hole pin header THT 1x12 1.00mm single row")
     (path /60D219C3)
@@ -1346,7 +1346,7 @@
   )
 
   (module Connector_PinHeader_1.00mm:PinHeader_1x12_P1.00mm_Vertical (layer F.Cu) (tedit 59FED738) (tstamp 5F6F3239)
-    (at 138.195001 91.575001)
+    (at 570.465001 288.565001)
     (descr "Through hole straight pin header, 1x12, 1.00mm pitch, single row")
     (tags "Through hole pin header THT 1x12 1.00mm single row")
     (path /5FA705B6)
@@ -1408,7 +1408,7 @@
   )
 
   (module Connector_PinHeader_1.00mm:PinHeader_1x12_P1.00mm_Vertical (layer F.Cu) (tedit 59FED738) (tstamp 5F6F325B)
-    (at 118.095001 91.575001)
+    (at 550.365001 288.565001)
     (descr "Through hole straight pin header, 1x12, 1.00mm pitch, single row")
     (tags "Through hole pin header THT 1x12 1.00mm single row")
     (path /601FEB58)
@@ -1470,7 +1470,7 @@
   )
 
   (module FDS4953:SOIC127P600X175-8N (layer F.Cu) (tedit 5F5AD685) (tstamp 5F6F3273)
-    (at 130.78 138.23)
+    (at 563.05 335.22)
     (path /60438183)
     (fp_text reference Q1 (at -0.795 -3.337) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.015)))
@@ -1509,7 +1509,7 @@
   )
 
   (module FDS4953:SOIC127P600X175-8N (layer F.Cu) (tedit 5F5AD685) (tstamp 5F6F328B)
-    (at 150.04 171.16)
+    (at 582.31 368.15)
     (path /60244717)
     (fp_text reference Q2 (at -0.795 -3.337) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.015)))
@@ -1548,7 +1548,7 @@
   )
 
   (module FDS4953:SOIC127P600X175-8N (layer F.Cu) (tedit 5F5AD685) (tstamp 5F6F32A3)
-    (at 117.24 142.05)
+    (at 549.51 339.04)
     (path /604EC385)
     (fp_text reference Q3 (at -0.795 -3.337) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.015)))
@@ -1587,7 +1587,7 @@
   )
 
   (module FDS4953:SOIC127P600X175-8N (layer F.Cu) (tedit 5F5AD685) (tstamp 5F6F32BB)
-    (at 170.16 136.44)
+    (at 602.43 333.43)
     (path /60467C05)
     (fp_text reference Q4 (at -0.795 -3.337) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.015)))
@@ -1626,7 +1626,7 @@
   )
 
   (module Resistor_SMD:R_0201_0603Metric (layer F.Cu) (tedit 5B301BBD) (tstamp 5F6F32CC)
-    (at 113.475001 109.325001)
+    (at 545.745001 306.315001)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5FB8D9B6)
@@ -1662,7 +1662,7 @@
   )
 
   (module Resistor_SMD:R_0201_0603Metric (layer F.Cu) (tedit 5B301BBD) (tstamp 5F6F32DD)
-    (at 111.025001 109.325001)
+    (at 543.295001 306.315001)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5FB8E3FA)
@@ -1698,7 +1698,7 @@
   )
 
   (module Resistor_SMD:R_0201_0603Metric (layer F.Cu) (tedit 5B301BBD) (tstamp 5F6F32EE)
-    (at 172.325001 73.275001)
+    (at 604.595001 270.265001)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5FB8EB19)
@@ -1734,7 +1734,7 @@
   )
 
   (module Resistor_THT:R_Array_SIP4 (layer F.Cu) (tedit 5A14249F) (tstamp 5F6F3305)
-    (at 179.48 117.72)
+    (at 611.75 314.71)
     (descr "4-pin Resistor SIP pack")
     (tags R)
     (path /5FD36A78)
@@ -1777,7 +1777,7 @@
   )
 
   (module Package_SO:HSOP-20-1EP_11.0x15.9mm_P1.27mm_SlugDown_ThermalVias (layer F.Cu) (tedit 5A02F2D3) (tstamp 5F6E9129)
-    (at 35.11 171.2)
+    (at 467.38 368.19)
     (descr "HSOP 11.0x15.9mm Pitch 1.27mm Slug Down Thermal Vias (PowerSO-20) [JEDEC MO-166] (http://www.st.com/resource/en/datasheet/tda7266d.pdf, www.st.com/resource/en/application_note/cd00003801.pdf)")
     (tags "HSOP 11.0 x 15.9mm Pitch 1.27mm")
     (path /5F598107)
@@ -1882,7 +1882,7 @@
   )
 
   (module Package_SO:HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm (layer F.Cu) (tedit 5A6710BF) (tstamp 5F6E98A6)
-    (at 125.67 123.01 270)
+    (at 557.94 320 270)
     (descr "16-Lead Plastic HTSSOP (4.4x5x1.2mm); Thermal pad; (http://www.ti.com/lit/ds/symlink/drv8833.pdf)")
     (tags "SSOP 0.65")
     (path /5F5AE8AA)
@@ -1960,7 +1960,7 @@
   )
 
   (module Package_SO:HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm (layer F.Cu) (tedit 5A6710BF) (tstamp 5F6F33A3)
-    (at 161.32 122.46 270)
+    (at 593.59 319.45 270)
     (descr "16-Lead Plastic HTSSOP (4.4x5x1.2mm); Thermal pad; (http://www.ti.com/lit/ds/symlink/drv8833.pdf)")
     (tags "SSOP 0.65")
     (path /5FAACAB9)
@@ -2038,7 +2038,7 @@
   )
 
   (module Package_SO:HSOP-20-1EP_11.0x15.9mm_P1.27mm_SlugDown_ThermalVias (layer F.Cu) (tedit 5A02F2D3) (tstamp 5F6F33E7)
-    (at 86.17 170.63)
+    (at 518.44 367.62)
     (descr "HSOP 11.0x15.9mm Pitch 1.27mm Slug Down Thermal Vias (PowerSO-20) [JEDEC MO-166] (http://www.st.com/resource/en/datasheet/tda7266d.pdf, www.st.com/resource/en/application_note/cd00003801.pdf)")
     (tags "HSOP 11.0 x 15.9mm Pitch 1.27mm")
     (path /5F6615B5)
@@ -2143,7 +2143,7 @@
   )
 
   (module Package_SO:TSSOP-16_4.4x5mm_P0.65mm (layer F.Cu) (tedit 5E476F32) (tstamp 5F6F3409)
-    (at 107.83 172.27)
+    (at 540.1 369.26)
     (descr "TSSOP, 16 Pin (JEDEC MO-153 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "TSSOP SO")
     (path /5F5AD502)
@@ -2210,7 +2210,7 @@
   )
 
   (module Package_SO:TSSOP-14_4.4x5mm_P0.65mm (layer F.Cu) (tedit 5E476F32) (tstamp 5F6F3429)
-    (at 131.24 112.47 180)
+    (at 563.51 309.46 180)
     (descr "TSSOP, 14 Pin (JEDEC MO-153 Var AB-1 https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "TSSOP SO")
     (path /5F5B56B3)
@@ -2273,7 +2273,7 @@
   )
 
   (module Package_SO:HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm (layer F.Cu) (tedit 5A6710BF) (tstamp 5F6E979D)
-    (at 108.18 123.64 270)
+    (at 540.45 320.63 270)
     (descr "16-Lead Plastic HTSSOP (4.4x5x1.2mm); Thermal pad; (http://www.ti.com/lit/ds/symlink/drv8833.pdf)")
     (tags "SSOP 0.65")
     (path /5FA70579)
@@ -2351,7 +2351,7 @@
   )
 
   (module Package_SO:HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm (layer F.Cu) (tedit 5A6710BF) (tstamp 5F6F3483)
-    (at 143.445 122.745 270)
+    (at 575.715 319.735 270)
     (descr "16-Lead Plastic HTSSOP (4.4x5x1.2mm); Thermal pad; (http://www.ti.com/lit/ds/symlink/drv8833.pdf)")
     (tags "SSOP 0.65")
     (path /601FEB31)
@@ -2428,33 +2428,11 @@
     )
   )
 
-  (dimension 230.290115 (width 0.15) (layer Dwgs.User)
-    (gr_text "230,290 mm" (at 145.108446 26.604694 359.9427764) (layer Dwgs.User)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (feature1 (pts (xy 260.25 30.17) (xy 260.252733 27.433273)))
-    (feature2 (pts (xy 29.96 29.94) (xy 29.962733 27.203273)))
-    (crossbar (pts (xy 29.962148 27.789693) (xy 260.252148 28.019693)))
-    (arrow1a (pts (xy 260.252148 28.019693) (xy 259.125059 28.604988)))
-    (arrow1b (pts (xy 260.252148 28.019693) (xy 259.12623 27.432147)))
-    (arrow2a (pts (xy 29.962148 27.789693) (xy 31.088066 28.377239)))
-    (arrow2b (pts (xy 29.962148 27.789693) (xy 31.089237 27.204398)))
-  )
-  (dimension 109.920022 (width 0.15) (layer Dwgs.User)
-    (gr_text "109,920 mm" (at 263.344999 85.118045 270.0364875) (layer Dwgs.User)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (feature1 (pts (xy 260.31 140.08) (xy 262.666419 140.078499)))
-    (feature2 (pts (xy 260.24 30.16) (xy 262.596419 30.158499)))
-    (crossbar (pts (xy 262.009999 30.158873) (xy 262.079999 140.078873)))
-    (arrow1a (pts (xy 262.079999 140.078873) (xy 261.492861 138.952743)))
-    (arrow1b (pts (xy 262.079999 140.078873) (xy 262.665702 138.951996)))
-    (arrow2a (pts (xy 262.009999 30.158873) (xy 261.424296 31.28575)))
-    (arrow2b (pts (xy 262.009999 30.158873) (xy 262.597137 31.285003)))
-  )
-  (gr_line (start 30.43 140.04) (end 29.99 30.09) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 260.28 139.88) (end 30.43 140.04) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 260.3 30.11) (end 260.28 140.28) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 30.14 29.82) (end 260.3 30.11) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 100.06 96.89) (end 102.46 96.89) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 99.97 99.21) (end 100.06 96.89) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 99.93 593.46) (end 99.93 99.18) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 1005.91 592.3) (end 99.93 593.46) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 1004.74 98.02) (end 1005.91 592.3) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 102.25 96.86) (end 1004.74 98.02) (layer Edge.Cuts) (width 0.05))
 
 )

@@ -2379,4 +2379,92 @@ F 3 "~" H 3750 8150 50  0001 C CNN
 	1    3750 8150
 	1    0    0    -1  
 $EndComp
+$Comp
+L myLedMatrix:LedMatrix L?
+U 1 1 5F7B4D9C
+P 1950 4550
+F 0 "L?" H 2150 3950 50  0000 R CNN
+F 1 "LedMatrix" H 2150 4050 50  0000 R CNN
+F 2 "" H 1930 4530 50  0001 C CNN
+F 3 "" H 1930 4530 50  0001 C CNN
+	1    1950 4550
+	-1   0    0    1   
+$EndComp
+$Comp
+L myLedMatrix:LedMatrix L?
+U 1 1 5F7C4F20
+P 2500 4550
+F 0 "L?" H 2700 3950 50  0000 R CNN
+F 1 "LedMatrix" H 2700 4050 50  0000 R CNN
+F 2 "" H 2480 4530 50  0001 C CNN
+F 3 "" H 2480 4530 50  0001 C CNN
+	1    2500 4550
+	-1   0    0    1   
+$EndComp
+$Comp
+L myLedMatrix:LedMatrix L?
+U 1 1 5F7C5FCF
+P 3050 4550
+F 0 "L?" H 3250 3950 50  0000 R CNN
+F 1 "LedMatrix" H 3250 4050 50  0000 R CNN
+F 2 "" H 3030 4530 50  0001 C CNN
+F 3 "" H 3030 4530 50  0001 C CNN
+	1    3050 4550
+	-1   0    0    1   
+$EndComp
+$Comp
+L myLedMatrix:LedMatrix L?
+U 1 1 5F7C71EE
+P 3600 4550
+F 0 "L?" H 3800 3950 50  0000 R CNN
+F 1 "LedMatrix" H 3800 4050 50  0000 R CNN
+F 2 "" H 3580 4530 50  0001 C CNN
+F 3 "" H 3580 4530 50  0001 C CNN
+	1    3600 4550
+	-1   0    0    1   
+$EndComp
+$Comp
+L myLedMatrix:LedMatrix L?
+U 1 1 5F7CAD02
+P 1950 5700
+F 0 "L?" H 2150 5100 50  0000 R CNN
+F 1 "LedMatrix" H 2150 5200 50  0000 R CNN
+F 2 "" H 1930 5680 50  0001 C CNN
+F 3 "" H 1930 5680 50  0001 C CNN
+	1    1950 5700
+	-1   0    0    1   
+$EndComp
+$Comp
+L myLedMatrix:LedMatrix L?
+U 1 1 5F7D1CEF
+P 2500 5700
+F 0 "L?" H 2700 5100 50  0000 R CNN
+F 1 "LedMatrix" H 2700 5200 50  0000 R CNN
+F 2 "" H 2480 5680 50  0001 C CNN
+F 3 "" H 2480 5680 50  0001 C CNN
+	1    2500 5700
+	-1   0    0    1   
+$EndComp
+$Comp
+L myLedMatrix:LedMatrix L?
+U 1 1 5F7D3AB8
+P 3050 5700
+F 0 "L?" H 3250 5100 50  0000 R CNN
+F 1 "LedMatrix" H 3250 5200 50  0000 R CNN
+F 2 "" H 3030 5680 50  0001 C CNN
+F 3 "" H 3030 5680 50  0001 C CNN
+	1    3050 5700
+	-1   0    0    1   
+$EndComp
+$Comp
+L myLedMatrix:LedMatrix L?
+U 1 1 5F7D4FD9
+P 3600 5700
+F 0 "L?" H 3800 5100 50  0000 R CNN
+F 1 "LedMatrix" H 3800 5200 50  0000 R CNN
+F 2 "" H 3580 5680 50  0001 C CNN
+F 3 "" H 3580 5680 50  0001 C CNN
+	1    3600 5700
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC

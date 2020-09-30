@@ -2369,12 +2369,12 @@ Wire Wire Line
 Wire Wire Line
 	700  1300 700  8100
 $Comp
-L Connector_Generic:Conn_02x08_Counter_Clockwise J?
+L Connector_Generic:Conn_02x08_Counter_Clockwise J4
 U 1 1 5F72EC68
 P 3750 8150
-F 0 "J?" H 3800 8667 50  0000 C CNN
+F 0 "J4" H 3800 8667 50  0000 C CNN
 F 1 "Conn_02x08_Counter_Clockwise" H 3800 8576 50  0000 C CNN
-F 2 "" H 3750 8150 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 3750 8150 50  0001 C CNN
 F 3 "~" H 3750 8150 50  0001 C CNN
 	1    3750 8150
 	1    0    0    -1  
