@@ -2744,7 +2744,7 @@ $Comp
 L Connector:Conn_01x12_Male J1
 U 1 1 5F72B69F
 P 2000 2975
-F 0 "J1" V 1850 2975 50  0000 C CNN
+F 0 "J1" V 1950 3325 50  0000 C CNN
 F 1 "Conn_01x12_Male" V 1950 2875 50  0000 C CNN
 F 2 "Connector_PinHeader_1.00mm:PinHeader_1x12_P1.00mm_Vertical" H 2000 2975 50  0001 C CNN
 F 3 "~" H 2000 2975 50  0001 C CNN
@@ -2806,7 +2806,7 @@ $Comp
 L myLedMatrix:LedMatrix_M L?
 U 1 1 5FAA9D97
 P 1850 3975
-F 0 "L?" H 1250 4275 50  0000 L CNN
+F 0 "L?" H 1325 4300 50  0000 L CNN
 F 1 "LedMatrix_M" V 1350 3750 50  0000 L CNN
 F 2 "" H 1950 4450 50  0001 C CNN
 F 3 "" H 1950 4450 50  0001 C CNN
@@ -3036,7 +3036,7 @@ $Comp
 L Connector:Conn_01x12_Male J?
 U 1 1 6086759F
 P 4150 2950
-F 0 "J?" V 4000 2950 50  0000 C CNN
+F 0 "J?" V 4100 3350 50  0000 C CNN
 F 1 "Conn_01x12_Male" V 4100 2850 50  0000 C CNN
 F 2 "Connector_PinHeader_1.00mm:PinHeader_1x12_P1.00mm_Vertical" H 4150 2950 50  0001 C CNN
 F 3 "~" H 4150 2950 50  0001 C CNN
@@ -3098,7 +3098,7 @@ $Comp
 L myLedMatrix:LedMatrix_M L?
 U 1 1 608675BF
 P 4000 3950
-F 0 "L?" H 3375 3950 50  0000 L CNN
+F 0 "L?" H 3475 4325 50  0000 L CNN
 F 1 "LedMatrix_M" V 3500 3725 50  0000 L CNN
 F 2 "" H 4100 4425 50  0001 C CNN
 F 3 "" H 4100 4425 50  0001 C CNN
@@ -3626,7 +3626,7 @@ $Comp
 L Connector:Conn_01x12_Male J?
 U 1 1 618D01C1
 P 6175 2950
-F 0 "J?" V 6025 2950 50  0000 C CNN
+F 0 "J?" V 6125 3325 50  0000 C CNN
 F 1 "Conn_01x12_Male" V 6125 2850 50  0000 C CNN
 F 2 "Connector_PinHeader_1.00mm:PinHeader_1x12_P1.00mm_Vertical" H 6175 2950 50  0001 C CNN
 F 3 "~" H 6175 2950 50  0001 C CNN
@@ -3688,7 +3688,7 @@ $Comp
 L myLedMatrix:LedMatrix_M L?
 U 1 1 618D01E1
 P 6025 3950
-F 0 "L?" H 5350 3950 50  0000 L CNN
+F 0 "L?" H 5475 4350 50  0000 L CNN
 F 1 "LedMatrix_M" V 5525 3725 50  0000 L CNN
 F 2 "" H 6125 4425 50  0001 C CNN
 F 3 "" H 6125 4425 50  0001 C CNN
@@ -3916,7 +3916,7 @@ $Comp
 L Connector:Conn_01x12_Male J?
 U 1 1 618D0255
 P 8325 2925
-F 0 "J?" V 8175 2925 50  0000 C CNN
+F 0 "J?" V 8275 3275 50  0000 C CNN
 F 1 "Conn_01x12_Male" V 8275 2825 50  0000 C CNN
 F 2 "Connector_PinHeader_1.00mm:PinHeader_1x12_P1.00mm_Vertical" H 8325 2925 50  0001 C CNN
 F 3 "~" H 8325 2925 50  0001 C CNN
@@ -3978,7 +3978,7 @@ $Comp
 L myLedMatrix:LedMatrix_M L?
 U 1 1 618D0275
 P 8175 3925
-F 0 "L?" H 7550 3925 50  0000 L CNN
+F 0 "L?" H 7625 4300 50  0000 L CNN
 F 1 "LedMatrix_M" V 7675 3700 50  0000 L CNN
 F 2 "" H 8275 4400 50  0001 C CNN
 F 3 "" H 8275 4400 50  0001 C CNN
@@ -4076,24 +4076,7 @@ Connection ~ 9150 7325
 Wire Bus Line
 	9150 7325 9200 7325
 Wire Bus Line
-	2825 4000 2825 5050
-Wire Bus Line
-	4975 3975 4975 5050
-Wire Bus Line
-	7000 3975 7000 5050
-Wire Bus Line
-	2825 5050 4975 5050
-Connection ~ 4975 5050
-Wire Bus Line
-	4975 5050 7000 5050
-Connection ~ 7000 5050
-Wire Bus Line
-	9150 3950 9150 5050
-Wire Bus Line
-	7000 5050 9150 5050
-Connection ~ 9150 5050
-Wire Bus Line
-	9150 5050 9200 5050
+	4975 3975 4975 4900
 Wire Bus Line
 	2200 5450 1200 5450
 Wire Bus Line
@@ -4118,4 +4101,114 @@ Wire Bus Line
 	1200 3175 2200 3175
 Wire Bus Line
 	1200 5450 1200 3175
+Wire Bus Line
+	9150 3850 9150 2750
+Connection ~ 9150 2750
+Wire Bus Line
+	9150 2750 9200 2750
+Wire Bus Line
+	7000 3850 7000 2750
+Connection ~ 7000 2750
+Wire Bus Line
+	7000 2750 9150 2750
+Wire Bus Line
+	2825 2750 4975 2750
+Wire Bus Line
+	4975 3850 4975 2750
+Connection ~ 4975 2750
+Wire Bus Line
+	4975 2750 7000 2750
+Wire Bus Line
+	2825 2750 2825 3875
+Wire Bus Line
+	2825 4000 2825 4900
+Wire Bus Line
+	2825 4900 4975 4900
+Wire Bus Line
+	4975 4900 7000 4900
+Wire Bus Line
+	7000 3975 7000 4900
+Connection ~ 4975 4900
+Wire Bus Line
+	9150 3950 9150 4900
+Connection ~ 7000 4900
+Wire Bus Line
+	10075 4900 10075 4875
+Wire Bus Line
+	7000 4900 9150 4900
+Connection ~ 9150 4900
+Wire Bus Line
+	9150 4900 10075 4900
+Wire Bus Line
+	2825 6150 2825 5075
+Wire Bus Line
+	2825 5075 4975 5075
+Wire Bus Line
+	4975 6125 4975 5075
+Wire Bus Line
+	4975 5075 7000 5075
+Wire Bus Line
+	7000 5075 7000 6125
+Connection ~ 4975 5075
+Wire Bus Line
+	7000 5075 9150 5075
+Wire Bus Line
+	9150 5075 9150 6100
+Connection ~ 7000 5075
+Wire Bus Line
+	9150 5075 10075 5075
+Wire Bus Line
+	10075 5075 10075 5125
+Connection ~ 9150 5075
+Wire Bus Line
+	9150 2750 9875 2750
+Wire Bus Line
+	9875 2750 9875 4725
+Wire Bus Line
+	9875 4725 10075 4725
+Wire Bus Line
+	10075 5275 9775 5275
+Wire Bus Line
+	9775 5275 9775 7325
+Wire Bus Line
+	9150 7325 9775 7325
+Wire Bus Line
+	2625 2450 1200 2450
+Wire Bus Line
+	1200 2450 1200 3175
+Connection ~ 1200 3175
+Text Label 2625 2250 3    50   ~ 0
+R8
+Text Label 2525 2250 3    50   ~ 0
+R7
+Text Label 2425 2250 3    50   ~ 0
+R6
+Text Label 2325 2250 3    50   ~ 0
+R5
+Text Label 2125 2250 3    50   ~ 0
+R3
+Text Label 2025 2250 3    50   ~ 0
+R2
+Text Label 1925 2250 3    50   ~ 0
+R1
+Text Label 2225 2250 3    50   ~ 0
+R4
+Wire Bus Line
+	3350 3150 3350 2450
+Wire Bus Line
+	3350 2450 4400 2450
+Connection ~ 3350 3150
+Wire Bus Line
+	5400 3150 5400 2450
+Wire Bus Line
+	5400 2450 6175 2450
+Connection ~ 5400 3150
+Wire Bus Line
+	7525 3150 7525 2450
+Connection ~ 7525 3150
+Wire Bus Line
+	7225 2450 7525 2450
+Connection ~ 7525 2450
+Wire Bus Line
+	7525 2450 7950 2450
 $EndSCHEMATC

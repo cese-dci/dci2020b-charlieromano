@@ -2802,17 +2802,6 @@ F 3 "~" H 2000 4825 50  0001 C CNN
 	1    2000 4825
 	0    -1   -1   0   
 $EndComp
-$Comp
-L myLedMatrix:LedMatrix_M L1
-U 1 1 5FAA9D97
-P 1850 3975
-F 0 "L1" H 1325 4300 50  0000 L CNN
-F 1 "LedMatrix_M" V 1350 3750 50  0000 L CNN
-F 2 "" H 1950 4450 50  0001 C CNN
-F 3 "" H 1950 4450 50  0001 C CNN
-	1    1850 3975
-	1    0    0    -1  
-$EndComp
 Text Label 1500 3250 3    50   ~ 0
 R8
 Text Label 1600 3250 3    50   ~ 0
@@ -4211,4 +4200,15 @@ Wire Bus Line
 Connection ~ 7525 2450
 Wire Bus Line
 	7525 2450 7950 2450
+$Comp
+L myLedMatrix:LedMatrix_M L1
+U 1 1 5FAA9D97
+P 1850 3975
+F 0 "L1" H 1250 4275 50  0000 L CNN
+F 1 "LedMatrix_M" V 1350 3750 50  0000 L CNN
+F 2 "" H 1950 4450 50  0001 C CNN
+F 3 "" H 1950 4450 50  0001 C CNN
+	1    1850 3975
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
