@@ -19,7 +19,7 @@ U 1 1 5F598107
 P 2100 9400
 F 0 "U1" H 1700 10200 50  0000 C CNN
 F 1 "74HC245" H 1800 10100 50  0000 C CNN
-F 2 "Package_SO:HSOP-20-1EP_11.0x15.9mm_P1.27mm_SlugDown_ThermalVias" H 2100 9400 50  0001 C CNN
+F 2 "Package_SO:SO-20-1EP_7.52x12.825mm_P1.27mm_EP6.045x12.09mm_Mask3.56x4.47mm" H 2100 9400 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74HC245" H 2100 9400 50  0001 C CNN
 	1    2100 9400
 	1    0    0    -1  
@@ -83,7 +83,7 @@ U 1 1 5F6615B5
 P 5400 9550
 F 0 "U4" H 5000 10350 50  0000 C CNN
 F 1 "74HC245" H 5100 10250 50  0000 C CNN
-F 2 "Package_SO:HSOP-20-1EP_11.0x15.9mm_P1.27mm_SlugDown_ThermalVias" H 5400 9550 50  0001 C CNN
+F 2 "Package_SO:SO-20-1EP_7.52x12.825mm_P1.27mm_EP6.045x12.09mm_Mask3.56x4.47mm" H 5400 9550 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74HC245" H 5400 9550 50  0001 C CNN
 	1    5400 9550
 	1    0    0    -1  
@@ -296,7 +296,7 @@ U 1 1 5FA70579
 P 5775 1750
 F 0 "U7" V 4725 1800 50  0000 R CNN
 F 1 "74HC595" V 4825 1900 50  0000 R CNN
-F 2 "Package_SO:HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm" H 5775 1750 50  0001 C CNN
+F 2 "Package_SO:SO-16_5.3x10.2mm_P1.27mm" H 5775 1750 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 5775 1750 50  0001 C CNN
 	1    5775 1750
 	0    1    1    0   
@@ -439,7 +439,7 @@ U 1 1 5FAACAB9
 P 4000 1750
 F 0 "U3" V 2950 1800 50  0000 R CNN
 F 1 "74HC595" V 3050 1900 50  0000 R CNN
-F 2 "Package_SO:HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm" H 4000 1750 50  0001 C CNN
+F 2 "Package_SO:SO-16_5.3x10.2mm_P1.27mm" H 4000 1750 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 4000 1750 50  0001 C CNN
 	1    4000 1750
 	0    1    1    0   
@@ -557,7 +557,7 @@ U 1 1 5F5AE8AA
 P 2225 1750
 F 0 "U2" V 1175 1800 50  0000 R CNN
 F 1 "74HC595" V 1275 1900 50  0000 R CNN
-F 2 "Package_SO:HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm" H 2225 1750 50  0001 C CNN
+F 2 "Package_SO:SO-16_5.3x10.2mm_P1.27mm" H 2225 1750 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 2225 1750 50  0001 C CNN
 	1    2225 1750
 	0    1    1    0   
@@ -568,7 +568,7 @@ U 1 1 601FEB31
 P 7525 1750
 F 0 "U8" V 6475 1800 50  0000 R CNN
 F 1 "74HC595" V 6575 1900 50  0000 R CNN
-F 2 "Package_SO:HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm" H 7525 1750 50  0001 C CNN
+F 2 "Package_SO:SO-16_5.3x10.2mm_P1.27mm" H 7525 1750 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 7525 1750 50  0001 C CNN
 	1    7525 1750
 	0    1    1    0   
@@ -653,7 +653,7 @@ U 1 1 5F5AD502
 P 8050 8275
 F 0 "U5" H 8050 9045 50  0000 C CNN
 F 1 "74HC138D" H 8050 8954 50  0000 C CNN
-F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 8050 8275 50  0001 L BNN
+F 2 "Package_SO:SO-16_5.3x10.2mm_P1.27mm" H 8050 8275 50  0001 L BNN
 F 3 "74HC138D" H 8050 8275 50  0001 L BNN
 F 4 "1201320" H 8050 8275 50  0001 L BNN "Field4"
 F 5 "-" H 8050 8275 50  0001 L BNN "Field5"
@@ -1906,7 +1906,7 @@ U 1 1 61A648C1
 P 12850 1750
 F 0 "U12" V 11800 1800 50  0000 R CNN
 F 1 "74HC595" V 11900 1900 50  0000 R CNN
-F 2 "Package_SO:HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm" H 12850 1750 50  0001 C CNN
+F 2 "Package_SO:SO-16_5.3x10.2mm_P1.27mm" H 12850 1750 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 12850 1750 50  0001 C CNN
 	1    12850 1750
 	0    1    1    0   
@@ -2038,7 +2038,7 @@ U 1 1 61A64908
 P 11075 1750
 F 0 "U11" V 10025 1800 50  0000 R CNN
 F 1 "74HC595" V 10125 1900 50  0000 R CNN
-F 2 "Package_SO:HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm" H 11075 1750 50  0001 C CNN
+F 2 "Package_SO:SO-16_5.3x10.2mm_P1.27mm" H 11075 1750 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 11075 1750 50  0001 C CNN
 	1    11075 1750
 	0    1    1    0   
@@ -2152,7 +2152,7 @@ U 1 1 61A64946
 P 9300 1750
 F 0 "U10" V 8250 1800 50  0000 R CNN
 F 1 "74HC595" V 8350 1900 50  0000 R CNN
-F 2 "Package_SO:HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm" H 9300 1750 50  0001 C CNN
+F 2 "Package_SO:SO-16_5.3x10.2mm_P1.27mm" H 9300 1750 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 9300 1750 50  0001 C CNN
 	1    9300 1750
 	0    1    1    0   
@@ -2163,7 +2163,7 @@ U 1 1 61A6494C
 P 14600 1750
 F 0 "U13" V 13550 1800 50  0000 R CNN
 F 1 "74HC595" V 13650 1900 50  0000 R CNN
-F 2 "Package_SO:HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm" H 14600 1750 50  0001 C CNN
+F 2 "Package_SO:SO-16_5.3x10.2mm_P1.27mm" H 14600 1750 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 14600 1750 50  0001 C CNN
 	1    14600 1750
 	0    1    1    0   
@@ -2437,7 +2437,7 @@ U 1 1 61C242E7
 P 8050 9975
 F 0 "U9" H 8050 10745 50  0000 C CNN
 F 1 "74HC138D" H 8050 10654 50  0000 C CNN
-F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 8050 9975 50  0001 L BNN
+F 2 "Package_SO:SO-16_5.3x10.2mm_P1.27mm" H 8050 9975 50  0001 L BNN
 F 3 "74HC138D" H 8050 9975 50  0001 L BNN
 F 4 "1201320" H 8050 9975 50  0001 L BNN "Field4"
 F 5 "-" H 8050 9975 50  0001 L BNN "Field5"
@@ -2601,7 +2601,7 @@ U 1 1 62F2FAC0
 P 2000 5250
 F 0 "J3" V 1950 5575 50  0000 C CNN
 F 1 "Conn_01x12_Male" V 1950 5150 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x12_P1.00mm_Vertical" H 2000 5250 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 2000 5250 50  0001 C CNN
 F 3 "~" H 2000 5250 50  0001 C CNN
 	1    2000 5250
 	0    -1   1    0   
@@ -2652,7 +2652,7 @@ U 1 1 62F2FAA6
 P 2000 7100
 F 0 "J5" V 1850 7100 50  0000 C CNN
 F 1 "Conn_01x12_Male" V 1950 7100 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x12_P1.00mm_Vertical" H 2000 7100 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 2000 7100 50  0001 C CNN
 F 3 "~" H 2000 7100 50  0001 C CNN
 	1    2000 7100
 	0    -1   -1   0   
@@ -2746,7 +2746,7 @@ U 1 1 5F72B69F
 P 2000 2975
 F 0 "J1" V 1950 3325 50  0000 C CNN
 F 1 "Conn_01x12_Male" V 1950 2875 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x12_P1.00mm_Vertical" H 2000 2975 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 2000 2975 50  0001 C CNN
 F 3 "~" H 2000 2975 50  0001 C CNN
 	1    2000 2975
 	0    -1   1    0   
@@ -2797,21 +2797,10 @@ U 1 1 5FAA9DA2
 P 2000 4825
 F 0 "J2" V 1950 5250 50  0000 C CNN
 F 1 "Conn_01x12_Male" V 1950 4825 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x12_P1.00mm_Vertical" H 2000 4825 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 2000 4825 50  0001 C CNN
 F 3 "~" H 2000 4825 50  0001 C CNN
 	1    2000 4825
 	0    -1   -1   0   
-$EndComp
-$Comp
-L myLedMatrix:LedMatrix_M L1
-U 1 1 5FAA9D97
-P 1850 3975
-F 0 "L1" H 1325 4300 50  0000 L CNN
-F 1 "LedMatrix_M" V 1350 3750 50  0000 L CNN
-F 2 "" H 1950 4450 50  0001 C CNN
-F 3 "" H 1950 4450 50  0001 C CNN
-	1    1850 3975
-	1    0    0    -1  
 $EndComp
 Text Label 1500 3250 3    50   ~ 0
 R8
@@ -2893,7 +2882,7 @@ U 1 1 60867555
 P 4150 5225
 F 0 "J8" V 4100 5525 50  0000 C CNN
 F 1 "Conn_01x12_Male" V 4100 5125 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x12_P1.00mm_Vertical" H 4150 5225 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 4150 5225 50  0001 C CNN
 F 3 "~" H 4150 5225 50  0001 C CNN
 	1    4150 5225
 	0    -1   1    0   
@@ -2944,7 +2933,7 @@ U 1 1 6086756F
 P 4150 7075
 F 0 "J9" V 4000 7075 50  0000 C CNN
 F 1 "Conn_01x12_Male" V 4100 7075 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x12_P1.00mm_Vertical" H 4150 7075 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 4150 7075 50  0001 C CNN
 F 3 "~" H 4150 7075 50  0001 C CNN
 	1    4150 7075
 	0    -1   -1   0   
@@ -3038,7 +3027,7 @@ U 1 1 6086759F
 P 4150 2950
 F 0 "J6" V 4100 3350 50  0000 C CNN
 F 1 "Conn_01x12_Male" V 4100 2850 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x12_P1.00mm_Vertical" H 4150 2950 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 4150 2950 50  0001 C CNN
 F 3 "~" H 4150 2950 50  0001 C CNN
 	1    4150 2950
 	0    -1   1    0   
@@ -3089,21 +3078,10 @@ U 1 1 608675B9
 P 4150 4800
 F 0 "J7" V 4100 5200 50  0000 C CNN
 F 1 "Conn_01x12_Male" V 4100 4800 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x12_P1.00mm_Vertical" H 4150 4800 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 4150 4800 50  0001 C CNN
 F 3 "~" H 4150 4800 50  0001 C CNN
 	1    4150 4800
 	0    -1   -1   0   
-$EndComp
-$Comp
-L myLedMatrix:LedMatrix_M L3
-U 1 1 608675BF
-P 4000 3950
-F 0 "L3" H 3475 4325 50  0000 L CNN
-F 1 "LedMatrix_M" V 3500 3725 50  0000 L CNN
-F 2 "" H 4100 4425 50  0001 C CNN
-F 3 "" H 4100 4425 50  0001 C CNN
-	1    4000 3950
-	1    0    0    -1  
 $EndComp
 Text Label 3650 3225 3    50   ~ 0
 R8
@@ -3483,7 +3461,7 @@ U 1 1 618D0177
 P 6175 5225
 F 0 "J12" V 6125 5550 50  0000 C CNN
 F 1 "Conn_01x12_Male" V 6125 5125 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x12_P1.00mm_Vertical" H 6175 5225 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 6175 5225 50  0001 C CNN
 F 3 "~" H 6175 5225 50  0001 C CNN
 	1    6175 5225
 	0    -1   1    0   
@@ -3534,7 +3512,7 @@ U 1 1 618D0191
 P 6175 7075
 F 0 "J13" V 6025 7075 50  0000 C CNN
 F 1 "Conn_01x12_Male" V 6125 7075 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x12_P1.00mm_Vertical" H 6175 7075 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 6175 7075 50  0001 C CNN
 F 3 "~" H 6175 7075 50  0001 C CNN
 	1    6175 7075
 	0    -1   -1   0   
@@ -3628,7 +3606,7 @@ U 1 1 618D01C1
 P 6175 2950
 F 0 "J10" V 6125 3325 50  0000 C CNN
 F 1 "Conn_01x12_Male" V 6125 2850 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x12_P1.00mm_Vertical" H 6175 2950 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 6175 2950 50  0001 C CNN
 F 3 "~" H 6175 2950 50  0001 C CNN
 	1    6175 2950
 	0    -1   1    0   
@@ -3679,21 +3657,10 @@ U 1 1 618D01DB
 P 6175 4800
 F 0 "J11" V 6125 5200 50  0000 C CNN
 F 1 "Conn_01x12_Male" V 6125 4800 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x12_P1.00mm_Vertical" H 6175 4800 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 6175 4800 50  0001 C CNN
 F 3 "~" H 6175 4800 50  0001 C CNN
 	1    6175 4800
 	0    -1   -1   0   
-$EndComp
-$Comp
-L myLedMatrix:LedMatrix_M L5
-U 1 1 618D01E1
-P 6025 3950
-F 0 "L5" H 5475 4350 50  0000 L CNN
-F 1 "LedMatrix_M" V 5525 3725 50  0000 L CNN
-F 2 "" H 6125 4425 50  0001 C CNN
-F 3 "" H 6125 4425 50  0001 C CNN
-	1    6025 3950
-	1    0    0    -1  
 $EndComp
 Text Label 5675 3225 3    50   ~ 0
 R8
@@ -3773,7 +3740,7 @@ U 1 1 618D020B
 P 8325 5200
 F 0 "J16" V 8275 5550 50  0000 C CNN
 F 1 "Conn_01x12_Male" V 8275 5125 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x12_P1.00mm_Vertical" H 8325 5200 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 8325 5200 50  0001 C CNN
 F 3 "~" H 8325 5200 50  0001 C CNN
 	1    8325 5200
 	0    -1   1    0   
@@ -3824,7 +3791,7 @@ U 1 1 618D0225
 P 8325 7050
 F 0 "J17" V 8175 7050 50  0000 C CNN
 F 1 "Conn_01x12_Male" V 8275 7050 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x12_P1.00mm_Vertical" H 8325 7050 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 8325 7050 50  0001 C CNN
 F 3 "~" H 8325 7050 50  0001 C CNN
 	1    8325 7050
 	0    -1   -1   0   
@@ -3918,7 +3885,7 @@ U 1 1 618D0255
 P 8325 2925
 F 0 "J14" V 8275 3275 50  0000 C CNN
 F 1 "Conn_01x12_Male" V 8275 2825 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x12_P1.00mm_Vertical" H 8325 2925 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 8325 2925 50  0001 C CNN
 F 3 "~" H 8325 2925 50  0001 C CNN
 	1    8325 2925
 	0    -1   1    0   
@@ -3969,21 +3936,10 @@ U 1 1 618D026F
 P 8325 4775
 F 0 "J15" V 8250 5175 50  0000 C CNN
 F 1 "Conn_01x12_Male" V 8250 4750 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x12_P1.00mm_Vertical" H 8325 4775 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 8325 4775 50  0001 C CNN
 F 3 "~" H 8325 4775 50  0001 C CNN
 	1    8325 4775
 	0    -1   -1   0   
-$EndComp
-$Comp
-L myLedMatrix:LedMatrix_M L7
-U 1 1 618D0275
-P 8175 3925
-F 0 "L7" H 7625 4300 50  0000 L CNN
-F 1 "LedMatrix_M" V 7675 3700 50  0000 L CNN
-F 2 "" H 8275 4400 50  0001 C CNN
-F 3 "" H 8275 4400 50  0001 C CNN
-	1    8175 3925
-	1    0    0    -1  
 $EndComp
 Text Label 7825 3200 3    50   ~ 0
 R8
@@ -4211,4 +4167,48 @@ Wire Bus Line
 Connection ~ 7525 2450
 Wire Bus Line
 	7525 2450 7950 2450
+$Comp
+L myLedMatrix:LedMatrix_M L5
+U 1 1 618D01E1
+P 6025 3950
+F 0 "L5" H 5475 4350 50  0000 L CNN
+F 1 "LedMatrix_M" V 5525 3725 50  0000 L CNN
+F 2 "" H 6125 4425 50  0001 C CNN
+F 3 "" H 6125 4425 50  0001 C CNN
+	1    6025 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L myLedMatrix:LedMatrix_M L3
+U 1 1 608675BF
+P 4000 3950
+F 0 "L3" H 3475 4325 50  0000 L CNN
+F 1 "LedMatrix_M" V 3500 3725 50  0000 L CNN
+F 2 "" H 4100 4425 50  0001 C CNN
+F 3 "" H 4100 4425 50  0001 C CNN
+	1    4000 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L myLedMatrix:LedMatrix_M L7
+U 1 1 618D0275
+P 8175 3925
+F 0 "L7" H 7625 4300 50  0000 L CNN
+F 1 "LedMatrix_M" V 7675 3700 50  0000 L CNN
+F 2 "" H 8275 4400 50  0001 C CNN
+F 3 "" H 8275 4400 50  0001 C CNN
+	1    8175 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L myLedMatrix:LedMatrix_M L1
+U 1 1 5FAA9D97
+P 1850 3975
+F 0 "L1" H 1325 4300 50  0000 L CNN
+F 1 "LedMatrix_M" V 1350 3750 50  0000 L CNN
+F 2 "" H 1950 4450 50  0001 C CNN
+F 3 "" H 1950 4450 50  0001 C CNN
+	1    1850 3975
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
