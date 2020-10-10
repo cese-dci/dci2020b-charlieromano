@@ -577,12 +577,12 @@ Wire Wire Line
 Wire Wire Line
 	4800 10125 4800 10175
 $Comp
-L Connector_Generic:Conn_02x08_Counter_Clockwise J4
+L Connector_Generic:Conn_02x08_Odd_Even J4
 U 1 1 5F72EC68
 P 3800 9675
 F 0 "J4" H 3850 10192 50  0000 C CNN
 F 1 "Conn_02x08_Counter_Clockwise" H 3850 10101 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 3800 9675 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" V 3800 9675 50  0001 C CNN
 F 3 "~" H 3800 9675 50  0001 C CNN
 	1    3800 9675
 	1    0    0    -1  
@@ -3270,7 +3270,7 @@ F 3 "" H 14375 1775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	14375 1775 14375 1525
+	14375 1775 14375 1725
 Text Label 7975 4675 3    50   ~ 0
 H5a
 Text Label 8075 4675 3    50   ~ 0
@@ -4554,6 +4554,109 @@ Text Notes 11500 8250 0    50   ~ 0
 Arreglo de MOSFET de salida para alimentar las columnas de las matrices LED\n
 Text Notes 9725 2525 0    50   ~ 0
 Conexiones no disponibles. Se utilizan para ampliar el arreglo de matrices led a 16 o 32 matrices.
+Text Notes 14200 1200 0    50   ~ 0
+Alimentación 5V-3A\n
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5F905A82
+P 14150 1525
+F 0 "#FLG0101" H 14150 1600 50  0001 C CNN
+F 1 "PWR_FLAG" V 14150 1675 50  0000 L CNN
+F 2 "" H 14150 1525 50  0001 C CNN
+F 3 "~" H 14150 1525 50  0001 C CNN
+	1    14150 1525
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GNDPWR #PWR0112
+U 1 1 5F906B75
+P 14625 1900
+F 0 "#PWR0112" H 14625 1700 50  0001 C CNN
+F 1 "GNDPWR" H 14629 1746 50  0000 C CNN
+F 2 "" H 14625 1850 50  0001 C CNN
+F 3 "" H 14625 1850 50  0001 C CNN
+	1    14625 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14625 1900 14625 1725
+Wire Wire Line
+	14625 1725 14375 1725
+Connection ~ 14375 1725
+Wire Wire Line
+	14375 1725 14375 1525
+Wire Wire Line
+	14150 1525 14150 1675
+Wire Wire Line
+	14150 1675 14275 1675
+Wire Wire Line
+	14275 1525 14275 1675
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5FC4D813
+P 10650 3775
+F 0 "H?" H 10750 3821 50  0000 L CNN
+F 1 "MountingHole" H 10750 3730 50  0000 L CNN
+F 2 "" H 10650 3775 50  0001 C CNN
+F 3 "~" H 10650 3775 50  0001 C CNN
+	1    10650 3775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5FC64412
+P 10650 4100
+F 0 "H?" H 10750 4146 50  0000 L CNN
+F 1 "MountingHole" H 10750 4055 50  0000 L CNN
+F 2 "" H 10650 4100 50  0001 C CNN
+F 3 "~" H 10650 4100 50  0001 C CNN
+	1    10650 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5FC6A707
+P 11475 3775
+F 0 "H?" H 11575 3821 50  0000 L CNN
+F 1 "MountingHole" H 11575 3730 50  0000 L CNN
+F 2 "" H 11475 3775 50  0001 C CNN
+F 3 "~" H 11475 3775 50  0001 C CNN
+	1    11475 3775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5FC6A70D
+P 11475 4100
+F 0 "H?" H 11575 4146 50  0000 L CNN
+F 1 "MountingHole" H 11575 4055 50  0000 L CNN
+F 2 "" H 11475 4100 50  0001 C CNN
+F 3 "~" H 11475 4100 50  0001 C CNN
+	1    11475 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5FCFED76
+P 12275 3775
+F 0 "H?" H 12375 3821 50  0000 L CNN
+F 1 "MountingHole" H 12375 3730 50  0000 L CNN
+F 2 "" H 12275 3775 50  0001 C CNN
+F 3 "~" H 12275 3775 50  0001 C CNN
+	1    12275 3775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5FCFED7C
+P 12275 4100
+F 0 "H?" H 12375 4146 50  0000 L CNN
+F 1 "MountingHole" H 12375 4055 50  0000 L CNN
+F 2 "" H 12275 4100 50  0001 C CNN
+F 3 "~" H 12275 4100 50  0001 C CNN
+	1    12275 4100
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	1575 2425 1575 5225
 Wire Bus Line
