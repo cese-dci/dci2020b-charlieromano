@@ -3240,7 +3240,7 @@ U 1 1 6C2DCF78
 P 14375 1725
 F 0 "J19" V 14221 1773 50  0000 L CNN
 F 1 "Conn_01x02_Female" V 14312 1773 50  0000 L CNN
-F 2 "" H 14375 1725 50  0001 C CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_2-GF-3.5_1x02_P3.50mm_Vertical_ThreadedFlange_MountHole" H 14375 1725 50  0001 C CNN
 F 3 "~" H 14375 1725 50  0001 C CNN
 	1    14375 1725
 	0    1    1    0   

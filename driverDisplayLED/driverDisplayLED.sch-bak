@@ -4592,67 +4592,67 @@ Wire Wire Line
 Wire Wire Line
 	14275 1525 14275 1675
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H1
 U 1 1 5FC4D813
 P 10650 3775
-F 0 "H?" H 10750 3821 50  0000 L CNN
+F 0 "H1" H 10750 3821 50  0000 L CNN
 F 1 "MountingHole" H 10750 3730 50  0000 L CNN
-F 2 "" H 10650 3775 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_ISO14580" H 10650 3775 50  0001 C CNN
 F 3 "~" H 10650 3775 50  0001 C CNN
 	1    10650 3775
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H2
 U 1 1 5FC64412
 P 10650 4100
-F 0 "H?" H 10750 4146 50  0000 L CNN
+F 0 "H2" H 10750 4146 50  0000 L CNN
 F 1 "MountingHole" H 10750 4055 50  0000 L CNN
-F 2 "" H 10650 4100 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_ISO14580" H 10650 4100 50  0001 C CNN
 F 3 "~" H 10650 4100 50  0001 C CNN
 	1    10650 4100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H3
 U 1 1 5FC6A707
 P 11475 3775
-F 0 "H?" H 11575 3821 50  0000 L CNN
+F 0 "H3" H 11575 3821 50  0000 L CNN
 F 1 "MountingHole" H 11575 3730 50  0000 L CNN
-F 2 "" H 11475 3775 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_ISO14580" H 11475 3775 50  0001 C CNN
 F 3 "~" H 11475 3775 50  0001 C CNN
 	1    11475 3775
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H4
 U 1 1 5FC6A70D
 P 11475 4100
-F 0 "H?" H 11575 4146 50  0000 L CNN
+F 0 "H4" H 11575 4146 50  0000 L CNN
 F 1 "MountingHole" H 11575 4055 50  0000 L CNN
-F 2 "" H 11475 4100 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_ISO14580" H 11475 4100 50  0001 C CNN
 F 3 "~" H 11475 4100 50  0001 C CNN
 	1    11475 4100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H5
 U 1 1 5FCFED76
 P 12275 3775
-F 0 "H?" H 12375 3821 50  0000 L CNN
+F 0 "H5" H 12375 3821 50  0000 L CNN
 F 1 "MountingHole" H 12375 3730 50  0000 L CNN
-F 2 "" H 12275 3775 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_ISO14580" H 12275 3775 50  0001 C CNN
 F 3 "~" H 12275 3775 50  0001 C CNN
 	1    12275 3775
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H6
 U 1 1 5FCFED7C
 P 12275 4100
-F 0 "H?" H 12375 4146 50  0000 L CNN
+F 0 "H6" H 12375 4146 50  0000 L CNN
 F 1 "MountingHole" H 12375 4055 50  0000 L CNN
-F 2 "" H 12275 4100 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_ISO14580" H 12275 4100 50  0001 C CNN
 F 3 "~" H 12275 4100 50  0001 C CNN
 	1    12275 4100
 	1    0    0    -1  

@@ -1,4 +1,4 @@
-18974896859458827
+18976499286995928
 74HC138D
 SOIC127P600X175-16N
 
@@ -82949,3 +82949,10 @@ varistor SIOV
 0
 2
 2
+myLedMatrixFootprint
+1588AB-24
+Through hole straight socket strip, 1x12, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x12 2.54mm single row
+0
+18
+12
