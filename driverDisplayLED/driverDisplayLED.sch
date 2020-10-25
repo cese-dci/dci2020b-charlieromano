@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 1
+Sheet 1 6
 Title "display LED driver"
 Date "2020-09-20"
 Rev "1.0"
@@ -1562,7 +1562,7 @@ U 7 1 5F5BA8D1
 P 14250 4975
 F 0 "U10" H 14250 5700 50  0000 C CNN
 F 1 "74HC04" H 14250 5600 50  0000 C CNN
-F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 14250 4975 50  0001 C CNN
+F 2 "Package_SO:SO-14_5.3x10.2mm_P1.27mm" H 14250 4975 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 14250 4975 50  0001 C CNN
 	7    14250 4975
 	0    -1   -1   0   
@@ -1627,7 +1627,7 @@ U 1 1 6139F201
 P 2775 10725
 F 0 "RN2" H 2495 10679 50  0000 R CNN
 F 1 "R_Network04" V 2975 10975 50  0000 R CNN
-F 2 "Resistor_THT:R_Array_SIP4" V 3050 10725 50  0001 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 3050 10725 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 2775 10725 50  0001 C CNN
 	1    2775 10725
 	0    1    -1   0   
@@ -3062,7 +3062,7 @@ U 1 1 6DB9C236
 P 10800 3800
 F 0 "RN7" H 10520 3754 50  0000 R CNN
 F 1 "50" V 11000 4050 50  0000 R CNN
-F 2 "Resistor_THT:R_Array_SIP4" V 11075 3800 50  0001 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 11075 3800 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 10800 3800 50  0001 C CNN
 	1    10800 3800
 	1    0    0    1   
@@ -3111,7 +3111,7 @@ U 1 1 6C4A5BFE
 P 12425 3450
 F 0 "RN6" H 12145 3404 50  0000 R CNN
 F 1 "50" V 12625 3700 50  0000 R CNN
-F 2 "Resistor_THT:R_Array_SIP4" V 12700 3450 50  0001 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 12700 3450 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 12425 3450 50  0001 C CNN
 	1    12425 3450
 	1    0    0    1   
@@ -3159,7 +3159,7 @@ U 1 1 6E6C9FAA
 P 11575 3625
 F 0 "RN8" H 11295 3579 50  0000 R CNN
 F 1 "50" V 11775 3875 50  0000 R CNN
-F 2 "Resistor_THT:R_Array_SIP4" V 11850 3625 50  0001 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 11850 3625 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 11575 3625 50  0001 C CNN
 	1    11575 3625
 	1    0    0    1   
@@ -3191,7 +3191,7 @@ U 1 1 6E6C9FC3
 P 13200 3300
 F 0 "RN9" H 12920 3254 50  0000 R CNN
 F 1 "50" V 13400 3550 50  0000 R CNN
-F 2 "Resistor_THT:R_Array_SIP4" V 13475 3300 50  0001 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 13475 3300 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 13200 3300 50  0001 C CNN
 	1    13200 3300
 	1    0    0    1   
@@ -3646,7 +3646,7 @@ U 1 1 65EB8954
 P 7525 6400
 F 0 "L8" H 8125 6400 50  0000 L CNN
 F 1 "LedMatrix_M" V 8050 6175 50  0000 L CNN
-F 2 "myLedMatrixFootprint:1588AB-24" H 7625 6875 50  0001 C CNN
+F 2 "" H 7625 6875 50  0001 C CNN
 F 3 "" H 7625 6875 50  0001 C CNN
 	1    7525 6400
 	1    0    0    -1  
@@ -3657,7 +3657,7 @@ U 1 1 65EB88FC
 P 5800 6400
 F 0 "L6" H 6350 6400 50  0000 L CNN
 F 1 "LedMatrix_M" V 6275 6175 50  0000 L CNN
-F 2 "myLedMatrixFootprint:1588AB-24" H 5900 6875 50  0001 C CNN
+F 2 "" H 5900 6875 50  0001 C CNN
 F 3 "" H 5900 6875 50  0001 C CNN
 	1    5800 6400
 	1    0    0    -1  
@@ -3668,7 +3668,7 @@ U 1 1 65BA6083
 P 4000 6400
 F 0 "L4" H 4600 6400 50  0000 L CNN
 F 1 "LedMatrix_M" V 4500 6175 50  0000 L CNN
-F 2 "myLedMatrixFootprint:1588AB-24" H 4100 6875 50  0001 C CNN
+F 2 "" H 4100 6875 50  0001 C CNN
 F 3 "" H 4100 6875 50  0001 C CNN
 	1    4000 6400
 	1    0    0    -1  
@@ -3679,7 +3679,7 @@ U 1 1 61F8FA0C
 P 2225 6400
 F 0 "L2" H 2800 6400 50  0000 L CNN
 F 1 "LedMatrix_M" V 2725 6175 50  0000 L CNN
-F 2 "myLedMatrixFootprint:1588AB-24" H 2325 6875 50  0001 C CNN
+F 2 "" H 2325 6875 50  0001 C CNN
 F 3 "" H 2325 6875 50  0001 C CNN
 	1    2225 6400
 	1    0    0    -1  
@@ -3690,7 +3690,7 @@ U 1 1 6453BC83
 P 7525 3975
 F 0 "L7" H 7975 4425 50  0000 L CNN
 F 1 "LedMatrix_M" V 8025 3800 50  0000 L CNN
-F 2 "myLedMatrixFootprint:1588AB-24" H 7625 4450 50  0001 C CNN
+F 2 "" H 7625 4450 50  0001 C CNN
 F 3 "" H 7625 4450 50  0001 C CNN
 	1    7525 3975
 	-1   0    0    -1  
@@ -3701,7 +3701,7 @@ U 1 1 63DACAC0
 P 5775 3975
 F 0 "L5" H 6250 4425 50  0000 L CNN
 F 1 "LedMatrix_M" V 6275 3775 50  0000 L CNN
-F 2 "myLedMatrixFootprint:1588AB-24" H 5875 4450 50  0001 C CNN
+F 2 "" H 5875 4450 50  0001 C CNN
 F 3 "" H 5875 4450 50  0001 C CNN
 	1    5775 3975
 	-1   0    0    -1  
@@ -3712,7 +3712,7 @@ U 1 1 6153BDC2
 P 4000 3975
 F 0 "L3" H 4450 4400 50  0000 L CNN
 F 1 "LedMatrix_M" V 4500 3800 50  0000 L CNN
-F 2 "myLedMatrixFootprint:1588AB-24" H 4100 4450 50  0001 C CNN
+F 2 "" H 4100 4450 50  0001 C CNN
 F 3 "" H 4100 4450 50  0001 C CNN
 	1    4000 3975
 	-1   0    0    -1  
@@ -3723,7 +3723,7 @@ U 1 1 5FAA9D97
 P 2225 3975
 F 0 "L1" H 2675 4400 50  0000 L CNN
 F 1 "LedMatrix_M" V 2700 3775 50  0000 L CNN
-F 2 "myLedMatrixFootprint:1588AB-24" H 2325 4450 50  0001 C CNN
+F 2 "" H 2325 4450 50  0001 C CNN
 F 3 "" H 2325 4450 50  0001 C CNN
 	1    2225 3975
 	-1   0    0    -1  
@@ -4188,11 +4188,11 @@ Text Notes 1300 7825 0    50   ~ 0
 Arreglo de matrices LED\n8 matrices de 64 leds (8x8)\n
 Text Notes 13425 4475 0    50   ~ 0
 Inversores
-Text Notes 8725 10950 0    50   ~ 0
+Text Notes 7450 8075 0    50   ~ 0
 Decodificadores / Demultiplexores 3-to-8\n
 Text Notes 1775 11050 0    50   ~ 0
 Octal bus tranceiver; 3-state\n
-Text Notes 3375 8800 0    50   ~ 0
+Text Notes 3350 8825 0    50   ~ 0
 Octal bus tranceiver; 3-state\n
 Text Notes 2875 700  0    50   ~ 0
 Arreglo serie de registros de desplazamiento: 8-bit serial-in, parallel-out con latches a la salida
@@ -4682,8 +4682,143 @@ Wire Wire Line
 	10350 6150 9650 6150
 Wire Wire Line
 	9650 6150 9650 7750
+$Sheet
+S 20700 4100 1975 650 
+U 5FD3C75D
+F0 "arrayMOSFET_sheet" 50
+F1 "arrayMOSFET.sch" 50
+F2 "BUS_Gates_B" B L 20700 4475 50 
+F3 "BUS_Gates_A" B L 20700 4575 50 
+F4 "BUS_Drain_H5H8_A" B R 22675 4325 50 
+F5 "BUS_Drain_H1H4_A" B R 22675 4225 50 
+F6 "BUS_Drain_H5H8_B" B R 22675 4425 50 
+F7 "BUS_Drain_H1H4_B" B R 22675 4525 50 
+$EndSheet
+$Sheet
+S 17100 3700 1650 1050
+U 5FD43255
+F0 "Decoders" 50
+F1 "Decoders.sch" 50
+F2 "A1-SER" B L 17100 3850 50 
+F3 "A5-SRCLK" B L 17100 3975 50 
+F4 "E1" B R 18750 4175 50 
+F5 "E3" B R 18750 4300 50 
+F6 "A1" B R 18750 3800 50 
+F7 "BUS-Y0Y7-B" B R 18750 4475 50 
+F8 "BUS-Y0Y7-A" B R 18750 4575 50 
+$EndSheet
+$Sheet
+S 17100 2300 2625 925 
+U 5FD444D5
+F0 "ShiftRegs" 50
+F1 "ShiftRegs.sch" 50
+F2 "SRCLK" I R 19725 2425 50 
+F3 "RCLK" I R 19725 2525 50 
+F4 "QH-SER" I R 19725 2625 50 
+F5 "A5-SRCLK" B L 17100 2450 50 
+F6 "A1-SER" B L 17100 2575 50 
+F7 "BUS-L1" B R 19725 2800 50 
+F8 "BUS-L3" B R 19725 2925 50 
+F9 "BUS-L5" B R 19725 3050 50 
+F10 "BUS-L7" B R 19725 3175 50 
+$EndSheet
+Text GLabel 11425 1325 0    50   Input ~ 0
+VCC
+Text GLabel 11900 1475 2    50   Input ~ 0
+GND
+Wire Wire Line
+	17100 2575 16925 2575
+Wire Wire Line
+	16925 2575 16925 3850
+Wire Wire Line
+	16800 3975 16800 2450
+Wire Wire Line
+	16800 2450 17100 2450
+$Sheet
+S 19000 3700 1325 300 
+U 6352902C
+F0 "Inverters" 50
+F1 "Inverters.sch" 50
+F2 "Inverters_input" B L 19000 3800 50 
+F3 "Inverters_E1" B R 20325 3900 50 
+F4 "Inverters_E3" B R 20325 3800 50 
+$EndSheet
+Wire Wire Line
+	20450 4175 20450 3900
+Wire Wire Line
+	20325 3900 20450 3900
+Wire Wire Line
+	20325 3800 20550 3800
+Wire Wire Line
+	20550 3800 20550 4300
+$Sheet
+S 20700 2300 3300 1350
+U 5FF2E981
+F0 "matrixLED_array" 50
+F1 "matrixLED_array.sch" 50
+F2 "L1-R1R8" B L 20700 2800 50 
+F3 "L3-R1R8" B L 20700 2925 50 
+F4 "L5-R1R8" B L 20700 3050 50 
+F5 "L7-R1R8" B L 20700 3175 50 
+F6 "BUS_H4H1_A" B R 24000 3000 50 
+F7 "BUS_H5H8_A" B R 24000 2900 50 
+F8 "BUS_H4H1_B" B R 24000 2700 50 
+F9 "BUS_H5H8_B" B R 24000 2800 50 
+$EndSheet
+Wire Wire Line
+	16925 3850 17100 3850
+Wire Wire Line
+	16800 3975 17125 3975
+Wire Wire Line
+	18725 3800 19000 3800
+Wire Bus Line
+	19700 2800 20700 2800
+Wire Bus Line
+	19725 2925 20725 2925
+Wire Bus Line
+	19700 3050 20725 3050
+Wire Bus Line
+	19700 3175 20725 3175
+Wire Bus Line
+	24000 3000 24250 3000
+Wire Bus Line
+	24250 3000 24250 4225
+Wire Bus Line
+	22650 4225 24250 4225
+Wire Bus Line
+	24325 4325 24325 2900
+Wire Bus Line
+	24325 2900 23975 2900
+Wire Bus Line
+	22650 4325 24325 4325
+Wire Bus Line
+	23975 2800 24425 2800
+Wire Bus Line
+	24425 2800 24425 4425
+Wire Bus Line
+	22675 4425 24425 4425
+Wire Bus Line
+	24525 4525 24525 2700
+Wire Bus Line
+	24525 2700 23975 2700
+Wire Bus Line
+	22675 4525 24525 4525
+Wire Wire Line
+	18725 4175 18725 4200
+Wire Wire Line
+	18725 4175 20450 4175
+Wire Wire Line
+	18725 4300 20550 4300
+Wire Bus Line
+	18725 4475 20725 4475
+Wire Bus Line
+	18725 4575 20725 4575
+Wire Bus Line
+	9275 9750 9275 9850
 Wire Bus Line
 	1575 2425 1575 5225
+Wire Bus Line
+	6875 5225 9200 5225
 Wire Bus Line
 	5125 5225 6875 5225
 Wire Bus Line
@@ -4702,10 +4837,6 @@ Wire Bus Line
 	5125 2425 5125 5225
 Wire Bus Line
 	3350 2425 3350 5225
-Wire Bus Line
-	6875 5225 9200 5225
-Wire Bus Line
-	9275 9750 9275 9850
 Wire Bus Line
 	4550 4975 4850 4975
 Wire Bus Line
@@ -4739,11 +4870,11 @@ Wire Bus Line
 Wire Bus Line
 	6325 2900 6675 2900
 Wire Bus Line
-	4550 2900 4900 2900
-Wire Bus Line
 	3225 5075 9025 5075
 Wire Bus Line
 	3225 2800 13350 2800
+Wire Bus Line
+	4550 2900 4900 2900
 Wire Bus Line
 	9275 8350 9275 8975
 Wire Bus Line
@@ -4755,11 +4886,11 @@ Wire Bus Line
 Wire Bus Line
 	9275 9850 9275 10475
 Wire Bus Line
-	9275 8350 15300 8350
-Wire Bus Line
 	3450 5325 4450 5325
 Wire Bus Line
 	1675 5325 2675 5325
+Wire Bus Line
+	9275 8350 15300 8350
 Wire Bus Line
 	7150 7400 7975 7400
 Wire Bus Line
