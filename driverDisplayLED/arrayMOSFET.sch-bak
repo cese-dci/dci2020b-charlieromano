@@ -50,6 +50,7 @@ F 25 "4.0" H 6950 3825 50  0001 L BNN "Field40"
 F 26 "1.75" H 6950 3825 50  0001 L BNN "Field41"
 F 27 "6.0" H 6950 3825 50  0001 L BNN "Field42"
 F 28 "5.8" H 6950 3825 50  0001 L BNN "Field43"
+F 29 "FDS4953TR-ND - Tape & Reel (TR)" H 6950 3825 50  0001 C CNN "CodigoCatalogo"
 	1    6950 3825
 	1    0    0    1   
 $EndComp
@@ -88,6 +89,7 @@ F 25 "4.0" H 7550 3825 50  0001 L BNN "Field40"
 F 26 "1.75" H 7550 3825 50  0001 L BNN "Field41"
 F 27 "6.0" H 7550 3825 50  0001 L BNN "Field42"
 F 28 "5.8" H 7550 3825 50  0001 L BNN "Field43"
+F 29 "FDS4953TR-ND - Tape & Reel (TR)" H 7550 3825 50  0001 C CNN "CodigoCatalogo"
 	2    7550 3825
 	1    0    0    1   
 $EndComp
@@ -126,6 +128,7 @@ F 25 "4.0" H 5575 3825 50  0001 L BNN "Field40"
 F 26 "1.75" H 5575 3825 50  0001 L BNN "Field41"
 F 27 "6.0" H 5575 3825 50  0001 L BNN "Field42"
 F 28 "5.8" H 5575 3825 50  0001 L BNN "Field43"
+F 29 "FDS4953TR-ND - Tape & Reel (TR)" H 5575 3825 50  0001 C CNN "CodigoCatalogo"
 	1    5575 3825
 	1    0    0    1   
 $EndComp
@@ -164,6 +167,7 @@ F 25 "4.0" H 6175 3825 50  0001 L BNN "Field40"
 F 26 "1.75" H 6175 3825 50  0001 L BNN "Field41"
 F 27 "6.0" H 6175 3825 50  0001 L BNN "Field42"
 F 28 "5.8" H 6175 3825 50  0001 L BNN "Field43"
+F 29 "FDS4953TR-ND - Tape & Reel (TR)" H 6175 3825 50  0001 C CNN "CodigoCatalogo"
 	2    6175 3825
 	1    0    0    1   
 $EndComp
@@ -214,6 +218,7 @@ F 25 "4.0" H 5025 3825 50  0001 L BNN "Field40"
 F 26 "1.75" H 5025 3825 50  0001 L BNN "Field41"
 F 27 "6.0" H 5025 3825 50  0001 L BNN "Field42"
 F 28 "5.8" H 5025 3825 50  0001 L BNN "Field43"
+F 29 "FDS4953TR-ND - Tape & Reel (TR)" H 5025 3825 50  0001 C CNN "CodigoCatalogo"
 	2    5025 3825
 	1    0    0    1   
 $EndComp
@@ -252,6 +257,7 @@ F 25 "4.0" H 4425 3825 50  0001 L BNN "Field40"
 F 26 "1.75" H 4425 3825 50  0001 L BNN "Field41"
 F 27 "6.0" H 4425 3825 50  0001 L BNN "Field42"
 F 28 "5.8" H 4425 3825 50  0001 L BNN "Field43"
+F 29 "FDS4953TR-ND - Tape & Reel (TR)" H 4425 3825 50  0001 C CNN "CodigoCatalogo"
 	1    4425 3825
 	1    0    0    1   
 $EndComp
@@ -354,6 +360,7 @@ F 25 "4.0" H 6950 5325 50  0001 L BNN "Field40"
 F 26 "1.75" H 6950 5325 50  0001 L BNN "Field41"
 F 27 "6.0" H 6950 5325 50  0001 L BNN "Field42"
 F 28 "5.8" H 6950 5325 50  0001 L BNN "Field43"
+F 29 "FDS4953TR-ND - Tape & Reel (TR)" H 6950 5325 50  0001 C CNN "CodigoCatalogo"
 	1    6950 5325
 	1    0    0    1   
 $EndComp
@@ -392,6 +399,7 @@ F 25 "4.0" H 7550 5325 50  0001 L BNN "Field40"
 F 26 "1.75" H 7550 5325 50  0001 L BNN "Field41"
 F 27 "6.0" H 7550 5325 50  0001 L BNN "Field42"
 F 28 "5.8" H 7550 5325 50  0001 L BNN "Field43"
+F 29 "FDS4953TR-ND - Tape & Reel (TR)" H 7550 5325 50  0001 C CNN "CodigoCatalogo"
 	2    7550 5325
 	1    0    0    1   
 $EndComp
@@ -430,6 +438,7 @@ F 25 "4.0" H 8100 5325 50  0001 L BNN "Field40"
 F 26 "1.75" H 8100 5325 50  0001 L BNN "Field41"
 F 27 "6.0" H 8100 5325 50  0001 L BNN "Field42"
 F 28 "5.8" H 8100 5325 50  0001 L BNN "Field43"
+F 29 "FDS4953TR-ND - Tape & Reel (TR)" H 8100 5325 50  0001 C CNN "CodigoCatalogo"
 	1    8100 5325
 	1    0    0    1   
 $EndComp
@@ -468,6 +477,7 @@ F 25 "4.0" H 8700 5325 50  0001 L BNN "Field40"
 F 26 "1.75" H 8700 5325 50  0001 L BNN "Field41"
 F 27 "6.0" H 8700 5325 50  0001 L BNN "Field42"
 F 28 "5.8" H 8700 5325 50  0001 L BNN "Field43"
+F 29 "FDS4953TR-ND - Tape & Reel (TR)" H 8700 5325 50  0001 C CNN "CodigoCatalogo"
 	2    8700 5325
 	1    0    0    1   
 $EndComp
@@ -506,6 +516,7 @@ F 25 "4.0" H 5575 5325 50  0001 L BNN "Field40"
 F 26 "1.75" H 5575 5325 50  0001 L BNN "Field41"
 F 27 "6.0" H 5575 5325 50  0001 L BNN "Field42"
 F 28 "5.8" H 5575 5325 50  0001 L BNN "Field43"
+F 29 "FDS4953TR-ND - Tape & Reel (TR)" H 5575 5325 50  0001 C CNN "CodigoCatalogo"
 	1    5575 5325
 	1    0    0    1   
 $EndComp
@@ -544,6 +555,7 @@ F 25 "4.0" H 6175 5325 50  0001 L BNN "Field40"
 F 26 "1.75" H 6175 5325 50  0001 L BNN "Field41"
 F 27 "6.0" H 6175 5325 50  0001 L BNN "Field42"
 F 28 "5.8" H 6175 5325 50  0001 L BNN "Field43"
+F 29 "FDS4953TR-ND - Tape & Reel (TR)" H 6175 5325 50  0001 C CNN "CodigoCatalogo"
 	2    6175 5325
 	1    0    0    1   
 $EndComp
@@ -602,6 +614,7 @@ F 25 "4.0" H 5025 5325 50  0001 L BNN "Field40"
 F 26 "1.75" H 5025 5325 50  0001 L BNN "Field41"
 F 27 "6.0" H 5025 5325 50  0001 L BNN "Field42"
 F 28 "5.8" H 5025 5325 50  0001 L BNN "Field43"
+F 29 "FDS4953TR-ND - Tape & Reel (TR)" H 5025 5325 50  0001 C CNN "CodigoCatalogo"
 	2    5025 5325
 	1    0    0    1   
 $EndComp
@@ -640,6 +653,7 @@ F 25 "4.0" H 4425 5325 50  0001 L BNN "Field40"
 F 26 "1.75" H 4425 5325 50  0001 L BNN "Field41"
 F 27 "6.0" H 4425 5325 50  0001 L BNN "Field42"
 F 28 "5.8" H 4425 5325 50  0001 L BNN "Field43"
+F 29 "FDS4953TR-ND - Tape & Reel (TR)" H 4425 5325 50  0001 C CNN "CodigoCatalogo"
 	1    4425 5325
 	1    0    0    1   
 $EndComp
@@ -980,6 +994,7 @@ F 25 "4.0" H 8100 3825 50  0001 L BNN "Field40"
 F 26 "1.75" H 8100 3825 50  0001 L BNN "Field41"
 F 27 "6.0" H 8100 3825 50  0001 L BNN "Field42"
 F 28 "5.8" H 8100 3825 50  0001 L BNN "Field43"
+F 29 "FDS4953TR-ND - Tape & Reel (TR)" H 8100 3825 50  0001 C CNN "CodigoCatalogo"
 	1    8100 3825
 	1    0    0    1   
 $EndComp
@@ -1018,6 +1033,7 @@ F 25 "4.0" H 8700 3825 50  0001 L BNN "Field40"
 F 26 "1.75" H 8700 3825 50  0001 L BNN "Field41"
 F 27 "6.0" H 8700 3825 50  0001 L BNN "Field42"
 F 28 "5.8" H 8700 3825 50  0001 L BNN "Field43"
+F 29 "FDS4953TR-ND - Tape & Reel (TR)" H 8700 3825 50  0001 C CNN "CodigoCatalogo"
 	2    8700 3825
 	1    0    0    1   
 $EndComp

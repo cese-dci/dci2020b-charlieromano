@@ -697,6 +697,8 @@ F 0 "L1" H 1160 2530 50  0000 L CNN
 F 1 "LedMatrix_M" H 1140 2440 50  0000 L CNN
 F 2 "myLedMatrixFootprint:1588AB-24" H 1655 2960 50  0001 C CNN
 F 3 "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiy--_K0qzsAhXCGbkGHUJoA-YQFjAFegQICRAC&url=http%3A%2F%2Fwww.ledtoplite.com%2Fuploadfile%2F2017%2F1588%2FTOP-CC-1588AB.pdf&usg=AOvVaw39C9W6BYCpxevXqqjI7nQH" H 1655 2960 50  0001 C CNN
+F 4 "6970622931652" H 1565 2515 50  0001 C CNN "CodigoCatalogo"
+F 5 "https://opencircuit.shop/Product/LED-Matrix-white-8x8-module-32x32mm-MAX7219" H 1565 2515 50  0001 C CNN "Field5"
 	1    1565 2515
 	1    0    0    -1  
 $EndComp
@@ -842,6 +844,8 @@ F 0 "L3" H 2930 2530 50  0000 L CNN
 F 1 "LedMatrix_M" H 2910 2440 50  0000 L CNN
 F 2 "myLedMatrixFootprint:1588AB-24" H 3425 2960 50  0001 C CNN
 F 3 "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiy--_K0qzsAhXCGbkGHUJoA-YQFjAFegQICRAC&url=http%3A%2F%2Fwww.ledtoplite.com%2Fuploadfile%2F2017%2F1588%2FTOP-CC-1588AB.pdf&usg=AOvVaw39C9W6BYCpxevXqqjI7nQH" H 3425 2960 50  0001 C CNN
+F 4 "6970622931652" H 3335 2515 50  0001 C CNN "CodigoCatalogo"
+F 5 "https://opencircuit.shop/Product/LED-Matrix-white-8x8-module-32x32mm-MAX7219" H 3335 2515 50  0001 C CNN "Field5"
 	1    3335 2515
 	1    0    0    -1  
 $EndComp
@@ -987,6 +991,7 @@ F 0 "L5" H 4730 2530 50  0000 L CNN
 F 1 "LedMatrix_M" H 4710 2440 50  0000 L CNN
 F 2 "myLedMatrixFootprint:1588AB-24" H 5225 2960 50  0001 C CNN
 F 3 "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiy--_K0qzsAhXCGbkGHUJoA-YQFjAFegQICRAC&url=http%3A%2F%2Fwww.ledtoplite.com%2Fuploadfile%2F2017%2F1588%2FTOP-CC-1588AB.pdf&usg=AOvVaw39C9W6BYCpxevXqqjI7nQH" H 5225 2960 50  0001 C CNN
+F 4 "6970622931652" H 5135 2515 50  0001 C CNN "CodigoCatalogo"
 	1    5135 2515
 	1    0    0    -1  
 $EndComp
@@ -1148,6 +1153,7 @@ F 0 "L7" H 6460 2530 50  0000 L CNN
 F 1 "LedMatrix_M" H 6440 2440 50  0000 L CNN
 F 2 "myLedMatrixFootprint:1588AB-24" H 6955 2960 50  0001 C CNN
 F 3 "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiy--_K0qzsAhXCGbkGHUJoA-YQFjAFegQICRAC&url=http%3A%2F%2Fwww.ledtoplite.com%2Fuploadfile%2F2017%2F1588%2FTOP-CC-1588AB.pdf&usg=AOvVaw39C9W6BYCpxevXqqjI7nQH" H 6955 2960 50  0001 C CNN
+F 4 "6970622931652" H 6865 2515 50  0001 C CNN "CodigoCatalogo"
 	1    6865 2515
 	1    0    0    -1  
 $EndComp
@@ -1293,6 +1299,7 @@ F 0 "L2" H 1170 5090 50  0000 L CNN
 F 1 "LedMatrix_M" H 1150 5000 50  0000 L CNN
 F 2 "myLedMatrixFootprint:1588AB-24" H 1665 5520 50  0001 C CNN
 F 3 "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiy--_K0qzsAhXCGbkGHUJoA-YQFjAFegQICRAC&url=http%3A%2F%2Fwww.ledtoplite.com%2Fuploadfile%2F2017%2F1588%2FTOP-CC-1588AB.pdf&usg=AOvVaw39C9W6BYCpxevXqqjI7nQH" H 1665 5520 50  0001 C CNN
+F 4 "6970622931652" H 1575 5075 50  0001 C CNN "CodigoCatalogo"
 	1    1575 5075
 	1    0    0    -1  
 $EndComp
@@ -1438,6 +1445,7 @@ F 0 "L4" H 2940 5090 50  0000 L CNN
 F 1 "LedMatrix_M" H 2920 5000 50  0000 L CNN
 F 2 "myLedMatrixFootprint:1588AB-24" H 3435 5520 50  0001 C CNN
 F 3 "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiy--_K0qzsAhXCGbkGHUJoA-YQFjAFegQICRAC&url=http%3A%2F%2Fwww.ledtoplite.com%2Fuploadfile%2F2017%2F1588%2FTOP-CC-1588AB.pdf&usg=AOvVaw39C9W6BYCpxevXqqjI7nQH" H 3435 5520 50  0001 C CNN
+F 4 "6970622931652" H 3345 5075 50  0001 C CNN "CodigoCatalogo"
 	1    3345 5075
 	1    0    0    -1  
 $EndComp
@@ -1724,6 +1732,7 @@ F 0 "L8" H 6460 5090 50  0000 L CNN
 F 1 "LedMatrix_M" H 6440 5000 50  0000 L CNN
 F 2 "myLedMatrixFootprint:1588AB-24" H 6955 5520 50  0001 C CNN
 F 3 "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiy--_K0qzsAhXCGbkGHUJoA-YQFjAFegQICRAC&url=http%3A%2F%2Fwww.ledtoplite.com%2Fuploadfile%2F2017%2F1588%2FTOP-CC-1588AB.pdf&usg=AOvVaw39C9W6BYCpxevXqqjI7nQH" H 6955 5520 50  0001 C CNN
+F 4 "6970622931652" H 6865 5075 50  0001 C CNN "CodigoCatalogo"
 	1    6865 5075
 	1    0    0    -1  
 $EndComp
@@ -2758,6 +2767,12 @@ Text Label 2090 5820 3    50   ~ 0
 Hb6
 Text Label 1990 5820 3    50   ~ 0
 Hb5
+Text HLabel 9490 6270 2    50   BiDi ~ 0
+Hb[5..8]
+Text GLabel 9435 6270 1    50   Input ~ 0
+Hb[5..8]
+Text Label 9050 6270 0    50   ~ 0
+Hb[5..8]
 Wire Bus Line
 	890  1650 890  6540
 Wire Bus Line
@@ -2848,10 +2863,4 @@ Wire Bus Line
 	10135 3810 10135 5630
 Wire Bus Line
 	10615 2405 10615 6370
-Text HLabel 9490 6270 2    50   BiDi ~ 0
-Hb[5..8]
-Text GLabel 9435 6270 1    50   Input ~ 0
-Hb[5..8]
-Text Label 9050 6270 0    50   ~ 0
-Hb[5..8]
 $EndSCHEMATC
