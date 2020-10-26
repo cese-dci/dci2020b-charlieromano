@@ -1,14 +1,33 @@
-## Diseño de Circuitos Impresos
-
-Trabajo práctico final
-
-Cartel de Matrices LED
 
 
+# Cartel de Matrices LED
 
-Autor: Carlos German Carreño Romano
+## Diseño de Circuitos Impresos: trabajo práctico final
 
-Profesor: Diego Brengi
+
+
+**Autor**: Carlos German Carreño Romano
+
+**Profesor**: Diego Brengi
+
+
+
+
+
+| Version | Fecha      | Comentarios                          | Revisor                      |
+| ------- | ---------- | ------------------------------------ | ---------------------------- |
+| 1.0     | 25/10/2020 | Circuito Esquemático y documentación | Carlos German Carreño Romano |
+|         |            |                                      |                              |
+
+
+
+### **Índice**
+
+[TOC]
+
+
+
+### Introducción
 
 
 
@@ -32,3 +51,39 @@ El alcance de este trabajo se limita al diseño de un cuarto de placa, debido a 
 
  El circuito  se replica en serie para el resto de matrices LED.
 
+
+
+### Circuito Esquemático (borrador)
+
+El circuito esquemático se compone de 5 hojas jerárquicas, todas en el mismo nivel de jerarquía, organizadas como se detalla en la siguiente lista:
+
+* root
+  * ShiftRegisters
+  * Decoders
+  * matrixLED_array
+  * MOSFET_array
+  * Inverters
+
+La siguiente figura presenta la interconexión de estas hojas jerárquicas, y a continuación de esta se detalla cada hoja.
+
+![Screenshot from 2020-10-25 21-32-46](/home/charlieromano/Documents/Academico/CESE/Materias/DCI/Screenshot from 2020-10-25 21-32-46.png)
+
+![Screenshot from 2020-10-25 21-33-06](/home/charlieromano/Documents/Academico/CESE/Materias/DCI/Screenshot from 2020-10-25 21-33-06.png)
+
+![Screenshot from 2020-10-25 21-33-11](/home/charlieromano/Documents/Academico/CESE/Materias/DCI/Screenshot from 2020-10-25 21-33-11.png)
+
+![Screenshot from 2020-10-25 21-33-14](/home/charlieromano/Documents/Academico/CESE/Materias/DCI/Screenshot from 2020-10-25 21-33-14.png)
+
+![Screenshot from 2020-10-25 21-33-20](/home/charlieromano/Documents/Academico/CESE/Materias/DCI/Screenshot from 2020-10-25 21-33-20.png)
+
+![Screenshot from 2020-10-25 21-33-33](/home/charlieromano/Documents/Academico/CESE/Materias/DCI/Screenshot from 2020-10-25 21-33-33.png)
+
+
+
+### Circuito Impreso (borrador)
+
+![Screenshot from 2020-10-25 20-53-47](/home/charlieromano/Documents/Academico/CESE/Materias/DCI/Screenshot from 2020-10-25 20-53-47.png)
+
+### Modelo 3D (borrador)
+
+![Screenshot from 2020-10-25 21-30-47](/home/charlieromano/Documents/Academico/CESE/Materias/DCI/Screenshot from 2020-10-25 21-30-47.png)
