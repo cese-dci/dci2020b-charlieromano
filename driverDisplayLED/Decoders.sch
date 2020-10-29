@@ -703,7 +703,7 @@ Wire Wire Line
 	4950 2200 10550 2200
 Text HLabel 1125 3950 0    50   BiDi ~ 0
 A1_SER
-Text HLabel 1125 4350 0    50   BiDi ~ 0
+Text HLabel 1100 4350 0    50   BiDi ~ 0
 A5_SRCLK
 Wire Wire Line
 	2000 3950 1125 3950
@@ -761,11 +761,6 @@ Text GLabel 1265 6810 2    50   Input ~ 0
 GND
 Text GLabel 1275 6660 2    50   Input ~ 0
 VCC
-Wire Wire Line
-	2005 4350 2000 4350
-Connection ~ 2000 4350
-Wire Wire Line
-	2000 4350 1125 4350
 Text Label 9930 4200 0    50   ~ 0
 Ya[0..7]
 Text Label 9960 2725 0    50   ~ 0
@@ -832,6 +827,8 @@ F 3 "~" H 5150 3730 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5150 3880 5150 4000
+Wire Wire Line
+	2000 4350 1100 4350
 Wire Bus Line
 	9550 2725 9550 3425
 Wire Bus Line

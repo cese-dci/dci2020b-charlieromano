@@ -242,6 +242,7 @@ F 0 "U9" H 9875 3800 50  0000 C CNN
 F 1 "74HC04" H 9875 3700 50  0000 C CNN
 F 2 "Package_SO:SO-14_5.3x10.2mm_P1.27mm" H 9875 3075 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 9875 3075 50  0001 C CNN
+F 4 "296-14505-2-ND - Tape & Reel (TR)" H 9875 3075 50  0001 C CNN "CodigoCatalogo"
 	7    9875 3075
 	1    0    0    -1  
 $EndComp
