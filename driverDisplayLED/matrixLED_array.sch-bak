@@ -2605,19 +2605,11 @@ Text GLabel 10760 1650 2    50   Input ~ 0
 VCC
 Text Label 890  6435 1    50   ~ 0
 L1R[1..8]
-Text GLabel 890  6480 2    50   Input ~ 0
-L1R[1..8]
 Text Label 2630 6060 1    50   ~ 0
 L3R[1..8]
 Text Label 4440 5975 1    50   ~ 0
 L5R[1..8]
 Text Label 6155 5925 1    50   ~ 0
-L7R[1..8]
-Text GLabel 2630 6485 2    50   Input ~ 0
-L3R[1..8]
-Text GLabel 4440 6485 2    50   Input ~ 0
-L5R[1..8]
-Text GLabel 6160 6485 2    50   Input ~ 0
 L7R[1..8]
 Text Label 3400 625  3    50   ~ 0
 aH4
@@ -2635,13 +2627,9 @@ Text Label 7380 1685 3    50   ~ 0
 Ha3
 Text Label 7280 1685 3    50   ~ 0
 Ha4
-Text GLabel 9400 1450 1    50   Input ~ 0
-Ha[1..4]
 Text HLabel 9485 3710 2    50   BiDi ~ 0
 Ha[5..8]
 Text Label 8980 3710 0    50   ~ 0
-Ha[5..8]
-Text GLabel 9400 3710 1    50   Input ~ 0
 Ha[5..8]
 Text Label 5550 3240 3    50   ~ 0
 Ha5
@@ -2725,8 +2713,6 @@ Text Label 1990 4225 3    50   ~ 0
 Hb4
 Text Label 9020 4010 0    50   ~ 0
 Hb[1..4]
-Text GLabel 9390 4010 3    50   Input ~ 0
-Hb[1..4]
 Text Label 8560 5555 0    50   ~ 0
 Hb8
 Text Label 8560 5655 0    50   ~ 0
@@ -2768,8 +2754,6 @@ Hb6
 Text Label 1990 5820 3    50   ~ 0
 Hb5
 Text HLabel 9490 6270 2    50   BiDi ~ 0
-Hb[5..8]
-Text GLabel 9435 6270 1    50   Input ~ 0
 Hb[5..8]
 Text Label 9050 6270 0    50   ~ 0
 Hb[5..8]

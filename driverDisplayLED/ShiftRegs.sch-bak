@@ -763,7 +763,7 @@ L1R[1..8]
 Text GLabel 2375 4620 0    50   Input ~ 0
 L1R[1..8]
 Text HLabel 2375 4700 3    50   BiDi ~ 0
-L1R[1...8]
+L1R[1..8]
 Text GLabel 4150 4650 0    50   Input ~ 0
 L3R[1..8]
 Text GLabel 5920 4670 0    50   Input ~ 0
