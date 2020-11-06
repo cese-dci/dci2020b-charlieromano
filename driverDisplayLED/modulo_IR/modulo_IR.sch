@@ -31,7 +31,8 @@ P 3940 2910
 F 0 "D1" V 3979 2792 50  0000 R CNN
 F 1 "LED" V 3888 2792 50  0000 R CNN
 F 2 "" H 3940 2910 50  0001 C CNN
-F 3 "~" H 3940 2910 50  0001 C CNN
+F 3 "www.everlight.com/file/ProductFile/201407061516067600.pdf" H 3940 2910 50  0001 C CNN
+F 4 "Digikey 1080-1071-ND" V 3940 2910 50  0001 C CNN "Catalogue"
 	1    3940 2910
 	0    -1   -1   0   
 $EndComp
@@ -42,7 +43,8 @@ P 6710 3750
 F 0 "U2" H 6710 4117 50  0000 C CNN
 F 1 "LM393" H 6710 4026 50  0000 C CNN
 F 2 "" H 6710 3750 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm393.pdf" H 6710 3750 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/LM293A-D.pdf" H 6710 3750 50  0001 C CNN
+F 4 "Digikey 2156-LM393N-ON-ND" H 6710 3750 50  0001 C CNN "Catalogue"
 	1    6710 3750
 	1    0    0    -1  
 $EndComp
@@ -97,7 +99,8 @@ P 8020 2930
 F 0 "D2" V 8059 2812 50  0000 R CNN
 F 1 "LED" V 7968 2812 50  0000 R CNN
 F 2 "" H 8020 2930 50  0001 C CNN
-F 3 "~" H 8020 2930 50  0001 C CNN
+F 3 "http://www.qt-brightek.com/datasheet/QBED8160.pdf" H 8020 2930 50  0001 C CNN
+F 4 "Digikey 1516-1001-ND" V 8020 2930 50  0001 C CNN "Catalogue"
 	1    8020 2930
 	0    -1   -1   0   
 $EndComp
@@ -372,6 +375,7 @@ F 0 "U1" H 5580 5875 50  0000 C CNN
 F 1 "SFH617A-1X001" H 5580 5784 50  0000 C CNN
 F 2 "Package_DIP:DIP-4_W7.62mm" H 5380 5350 50  0001 L CIN
 F 3 "http://www.vishay.com/docs/83740/sfh617a.pdf" H 5580 5550 50  0001 L CNN
+F 4 "Digikey SFH617A-3-ND" H 5580 5550 50  0001 C CNN "Catalogue"
 	1    5580 5550
 	1    0    0    -1  
 $EndComp
@@ -422,4 +426,6 @@ F 3 "~" H 8040 4850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Connection ~ 8040 4850
+Text Notes 7500 6240 0    50   ~ 0
+Fiduciales
 $EndSCHEMATC
