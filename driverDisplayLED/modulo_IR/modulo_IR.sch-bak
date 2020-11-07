@@ -6,9 +6,9 @@ encoding utf-8
 Sheet 1 1
 Title "Módulo IR"
 Date "2020-11-02"
-Rev ""
+Rev "Diego Brengi"
 Comp "Carlos German Carreño Romano"
-Comment1 ""
+Comment1 "GPL License"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -30,7 +30,7 @@ U 1 1 5F9F90C6
 P 3940 2910
 F 0 "D1" V 3979 2792 50  0000 R CNN
 F 1 "LED" V 3888 2792 50  0000 R CNN
-F 2 "LED_THT:LED_D1.8mm_W3.3mm_H2.4mm" H 3940 2910 50  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 3940 2910 50  0001 C CNN
 F 3 "www.everlight.com/file/ProductFile/201407061516067600.pdf" H 3940 2910 50  0001 C CNN
 F 4 "Digikey 1080-1071-ND" V 3940 2910 50  0001 C CNN "Catalogue"
 	1    3940 2910
@@ -98,7 +98,7 @@ U 1 1 5F9FCF9A
 P 8020 2930
 F 0 "D2" V 8059 2812 50  0000 R CNN
 F 1 "LED" V 7968 2812 50  0000 R CNN
-F 2 "LED_THT:LED_D1.8mm_W3.3mm_H2.4mm" H 8020 2930 50  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 8020 2930 50  0001 C CNN
 F 3 "http://www.qt-brightek.com/datasheet/QBED8160.pdf" H 8020 2930 50  0001 C CNN
 F 4 "Digikey 1516-1001-ND" V 8020 2930 50  0001 C CNN "Catalogue"
 	1    8020 2930
@@ -210,8 +210,6 @@ F 3 "" H 5190 4140 50  0001 C CNN
 	1    5190 4140
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5190 6060 5190 5650
 $Comp
 L Device:R R5
 U 1 1 5FA5B713
@@ -330,8 +328,6 @@ Wire Wire Line
 	6180 3510 6180 3650
 Connection ~ 6180 3650
 Wire Wire Line
-	6180 3650 6180 5450
-Wire Wire Line
 	5880 6130 5880 6060
 $Comp
 L power:GND #PWR08
@@ -349,8 +345,6 @@ Wire Wire Line
 	6180 6060 6180 5820
 Wire Wire Line
 	5880 6060 6180 6060
-Wire Wire Line
-	5880 5650 5880 6060
 $Comp
 L Device:C C2
 U 1 1 5F9FD5B9
@@ -363,43 +357,18 @@ F 3 "~" H 6180 5670 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5880 5450 6180 5450
-Wire Wire Line
-	6180 5450 6180 5520
-Connection ~ 6180 5450
-$Comp
-L Isolator:SFH617A-1X001 U1
-U 1 1 5F9FA1B9
-P 5580 5550
-F 0 "U1" H 5580 5875 50  0000 C CNN
-F 1 "SFH617A-1X001" H 5580 5784 50  0000 C CNN
-F 2 "Package_SO:SO-4_7.6x3.6mm_P2.54mm" H 5380 5350 50  0001 L CIN
-F 3 "http://www.vishay.com/docs/83740/sfh617a.pdf" H 5580 5550 50  0001 L CNN
-F 4 "Digikey SFH617A-3-ND" H 5580 5550 50  0001 C CNN "Catalogue"
-	1    5580 5550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5280 5450 5190 5450
-Wire Wire Line
-	5280 5650 5190 5650
-Wire Wire Line
-	5190 6060 5880 6060
-Wire Wire Line
 	5190 4850 5190 4750
-Wire Wire Line
-	5190 5150 5190 5450
 Wire Wire Line
 	7320 3750 8020 3750
 Connection ~ 7320 3750
 Wire Wire Line
 	8020 3750 8020 3570
 Text Notes 4250 2970 0    50   ~ 0
-LED IR Tx\n
-Text Notes 4250 5590 0    50   ~ 0
-Circuito optoacoplador
+LED: \npower monitor
+Text Notes 4350 5600 0    50   ~ 0
+Circuito \noptoacoplador
 Text Notes 8410 2990 0    50   ~ 0
-LED IR Rx\n
+LED:\noutput monitor\n
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5FAFFDEE
@@ -428,4 +397,54 @@ $EndComp
 Connection ~ 8040 4850
 Text Notes 7500 6240 0    50   ~ 0
 Fiduciales
+$Comp
+L Device:LED D3
+U 1 1 5FA77C50
+P 5190 5440
+F 0 "D3" V 5229 5322 50  0000 R CNN
+F 1 "LED" V 5138 5322 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm_Horizontal_O3.81mm_Z15.0mm" H 5190 5440 50  0001 C CNN
+F 3 "~" H 5190 5440 50  0001 C CNN
+	1    5190 5440
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Photo D4
+U 1 1 5FA791C5
+P 5640 5590
+F 0 "D4" V 5636 5510 50  0000 R CNN
+F 1 "D_Photo" V 5545 5510 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm_Horizontal_O3.81mm_Z15.0mm" H 5590 5590 50  0001 C CNN
+F 3 "~" H 5590 5590 50  0001 C CNN
+	1    5640 5590
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6180 3650 6180 5230
+Wire Wire Line
+	5190 5150 5190 5290
+Wire Wire Line
+	5190 5590 5190 6060
+Wire Wire Line
+	5640 5790 5640 6060
+Wire Wire Line
+	5190 6060 5640 6060
+Connection ~ 5640 6060
+Wire Wire Line
+	5640 6060 5880 6060
+Wire Wire Line
+	5640 5490 5640 5230
+Wire Wire Line
+	5640 5230 6180 5230
+Connection ~ 6180 5230
+Wire Wire Line
+	6180 5230 6180 5520
+Wire Notes Line
+	4960 5880 5900 5880
+Wire Notes Line
+	5900 5880 5900 5160
+Wire Notes Line
+	5900 5160 4960 5160
+Wire Notes Line
+	4960 5160 4960 5880
 $EndSCHEMATC
