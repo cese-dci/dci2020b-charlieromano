@@ -302,7 +302,7 @@ U 1 1 5FA70E47
 P 7520 5900
 F 0 "H2" H 7620 5946 50  0000 L CNN
 F 1 "MountingHole" H 7620 5855 50  0000 L CNN
-F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 7520 5900 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 7520 5900 50  0001 C CNN
 F 3 "~" H 7520 5900 50  0001 C CNN
 	1    7520 5900
 	1    0    0    -1  
