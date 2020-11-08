@@ -17,17 +17,31 @@ CESE 2020
 | 2020-11-06 | 1.1     | Informe técnico del diseño propuesto | Carlos G. C. Romano |
 |            |         |                                      |                     |
 
+[TOC]
+
+
+
+### Módulo comercial
+
 ![](/home/charlieromano/Documents/Academico/CESE/Materias/DCI/dci2020b-charlieromano/proyectoDCI/Docs/ModuloIR/s-l1600.jpg)
 <img src="ModuloIR/s-l1600.jpg">
+
+### Esquemático disponible
 
 ![](/home/charlieromano/Documents/Academico/CESE/Materias/DCI/dci2020b-charlieromano/proyectoDCI/Docs/ModuloIR/Smart-Car-Robot-Reflective-Photoelectric-3pin-IR-Infrared-Obstacle-Avoidance-Sensor-Module-for-arduino-Diy-Kit.jpg)
 <img src="ModuloIR/Smart-Car-Robot-Reflective-Photoelectric-3pin-IR-Infrared-Obstacle-Avoidance-Sensor-Module-for-arduino-Diy-Kit.jpg">
 
+### Circuito esquemático
+
 ![](/home/charlieromano/Documents/Academico/CESE/Materias/DCI/dci2020b-charlieromano/proyectoDCI/Docs/ModuloIR/esquematico.png)
 <img src="ModuloIR/esquematico.png">
 
+### Circuito impreso PCB
+
 ![](/home/charlieromano/Documents/Academico/CESE/Materias/DCI/dci2020b-charlieromano/proyectoDCI/Docs/ModuloIR/PCB.png)
 <img src="ModuloIR/PCB.png">
+
+### Modelo 3D
 
 ![](/home/charlieromano/Documents/Academico/CESE/Materias/DCI/dci2020b-charlieromano/proyectoDCI/Docs/ModuloIR/3DView.png)
 <img src="ModuloIR/3DView.png">
