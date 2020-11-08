@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/charlieromano/Documents/Academico/CESE/Materias/DCI/dci2020b-charlieromano/driverDisplayLED/modulo_IR/modulo_IR.sch)
-    (date "dom 08 nov 2020 15:13:09")
+    (date "dom 08 nov 2020 17:18:11")
     (tool "Eeschema 5.1.7-a382d34a8~87~ubuntu20.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block

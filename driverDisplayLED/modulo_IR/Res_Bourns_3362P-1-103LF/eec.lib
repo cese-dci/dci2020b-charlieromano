@@ -1,0 +1,59 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Bourns 3362P-1-103LF
+#
+DEF 3362P-1-103LF VR 0 40 Y Y 1 L N
+F0 "VR" 0 300 50 H V L CNN 
+F1 "3362P-1-103LF" 0 400 50 H V L CNN 
+F2 "Bourns-3362P-1-103LF-*" 0 500 50 H I L CNN 
+F3 "http://www.bourns.com/docs/Product-Datasheets/3362.pdf" 0 600 50 H I L CNN 
+F4 "0612" 0 700 50 H I L CNN "Case Code Imperial"
+F5 "1632" 0 800 50 H I L CNN "Case Code Metric"
+F6 "Manufacturer URL" 0 900 50 H I L CNN "Component Link 1 Description"
+F7 "http://www.bourns.com/" 0 1000 50 H I L CNN "Component Link 1 URL"
+F8 "May-16" 0 1100 50 H I L CNN "Datasheet Version"
+F9 "0.6 mm" 0 1200 50 H I L CNN "Height"
+F10 "3.2 mm" 0 1300 50 H I L CNN "Length"
+F11 "125degC" 0 1400 50 H I L CNN "Max Operating Temperature"
+F12 "-25degC" 0 1500 50 H I L CNN "Min Operating Temperature"
+F13 "Surface Mount" 0 1600 50 H I L CNN "Mount"
+F14 "3-Pin Through Hole Device, Body 6.6 x 6.99 mm, Pitch 2.54 mm" 0 1700 50 H I L CNN "Package Description"
+F15 "5000" 0 1800 50 H I L CNN "Package Quantity"
+F16 "3326P" 0 1900 50 H I L CNN "Package Reference"
+F17 "Tape and Reel" 0 2000 50 H I L CNN "Packaging"
+F18 "2" 0 2100 50 H I L CNN "Pins"
+F19 "1 W" 0 2200 50 H I L CNN "Power Rating"
+F20 "No SVHC" 0 2300 50 H I L CNN "REACH SVHC"
+F21 "true" 0 2400 50 H I L CNN "Ro HSCompliant"
+F22 "1%" 0 2500 50 H I L CNN "Tolerance"
+F23 "220 mV" 0 2600 50 H I L CNN "Voltage Rating"
+F24 "1.6 mm" 0 2700 50 H I L CNN "Width"
+F25 "Res" 0 2800 50 H I L CNN "category"
+F26 "1580239" 0 2900 50 H I L CNN "ciiva ids"
+F27 "f942e9bc8b83ba92" 0 3000 50 H I L CNN "library id"
+F28 "Bourns" 0 3100 50 H I L CNN "manufacturer"
+F29 "1206" 0 3200 50 H I L CNN "package"
+F30 "1475030208" 0 3300 50 H I L CNN "release date"
+F31 "50 mohm" 0 3400 50 H I L CNN "resistance"
+F32 "DA474C76-ED9C-4B99-A4A0-654EE1C2010F" 0 3500 50 H I L CNN "vault revision"
+F33 "yes" 0 3600 50 H I L CNN "imported"
+DRAW
+X S 2 0 0 100 R 40 0 1 1 P 
+X CCW 1 200 200 100 D 40 0 1 1 P 
+X CW 3 200 -200 100 U 40 0 1 1 P 
+P 2 1 1 0 150 0 100 0 N
+P 4 1 1 0 120 -20 170 0 120 20 120 -20 N
+P 2 1 1 0 200 -100 200 -60 N
+P 2 1 1 0 200 -60 180 -50 N
+P 2 1 1 0 180 -50 220 -30 N
+P 2 1 1 0 220 -30 180 -10 N
+P 2 1 1 0 180 -10 220 10 N
+P 2 1 1 0 220 10 180 30 N
+P 2 1 1 0 180 30 220 50 N
+P 2 1 1 0 220 50 200 60 N
+P 2 1 1 0 200 60 200 100 N
+ENDDRAW
+ENDDEF
+#
+# End Library
