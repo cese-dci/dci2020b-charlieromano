@@ -18,7 +18,7 @@ CESE 2020
 |            |         |                                      |                     |
 
 ![](/home/charlieromano/Documents/Academico/CESE/Materias/DCI/dci2020b-charlieromano/proyectoDCI/Docs/ModuloIR/s-l1600.jpg)
-<img src="Docs/ModuloIR/s-l1600.jpg">
+<img src="ModuloIR/s-l1600.jpg">
 
 ![](/home/charlieromano/Documents/Academico/CESE/Materias/DCI/dci2020b-charlieromano/proyectoDCI/Docs/ModuloIR/Smart-Car-Robot-Reflective-Photoelectric-3pin-IR-Infrared-Obstacle-Avoidance-Sensor-Module-for-arduino-Diy-Kit.jpg)
 
